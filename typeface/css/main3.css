@@ -1,0 +1,374 @@
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	position: relative;
+	background: rgb(150,160,100);
+	z-index: -20;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
+
+#h {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 30px;
+	bottom: 150px;
+}
+
+#h #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 100px;
+}
+
+#h #side {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 0px;
+}
+
+#l {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 170px;
+	bottom: 150px;
+}
+
+#l #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#e {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 110px;
+	bottom: 150px;
+}
+
+#e #top {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 180px;
+}
+
+#e #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 100px;
+}
+
+#e #bottom {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#l2 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 230px;
+	bottom: 150px;
+}
+
+#l2 #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 290px;
+	bottom: 150px;
+}
+
+#o #bottom {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o #top {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 180px;
+}
+
+#o #right {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 0px;
+}
+
+#w {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 390px;
+	bottom: 150px;
+}
+
+#w #bottom {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#w #right {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 0px;
+}
+
+#w #right2 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 80px;
+	bottom: 0px;
+}
+
+#w #bottom2 {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 60px;
+	bottom: 0px;
+}
+
+#o2 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 510px;
+	bottom: 150px;
+}
+
+#o2 #bottom {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o2 #top {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 180px;
+}
+
+#o2 #right {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 0px;
+}
+
+#r {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 590px;
+	bottom: 150px;
+}
+
+#r #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 100px;
+}
+
+#r #top {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 180px;
+}
+
+#r #right {
+	background: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 100px;
+}
+#r #right2 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	width: 20px;
+	position:absolute;
+	left: 50px;
+	bottom: 0px;
+}
+
+#l3 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 680px;
+	bottom: 150px;
+}
+
+#l3 #cross {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#d {
+	background: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 740px;
+	bottom: 150px;
+}
+
+#d #bottom {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#d #top {
+	background: rgba(0, 0, 255, 0.2);
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 180px;
+}
+
+#d #righttop {
+	background: rgba(255, 255, 255, 0.5);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 150px;
+}
+
+#d #rightbottom {
+	background: rgba(255, 255, 255, 0.5);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	left: 40px;
+	bottom: 0px;
+}
+
+#d #right {
+	background: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	width: 20px;
+	position:absolute;
+	left: 50px;
+	bottom: 50px;
+}

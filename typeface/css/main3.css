@@ -7,7 +7,7 @@ body {
 	height: 556px;
 	margin: 100px auto;
 	position: relative;
-	background: rgb(150,160,100);
+	background: rgb(0,0,0);
 	z-index: -20;
 }
 
@@ -46,16 +46,18 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
+	border-radius: 200px;
 	left: 30px;
 	bottom: 150px;
 }
 
 #h #cross {
-	background: rgba(0, 0, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
 	height: 20px;
-	width: 40px;
+	width: 80px;
 	position: absolute;
 	left: 0px;
+	border-radius: 300px;
 	bottom: 100px;
 }
 
@@ -64,7 +66,8 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 40px;
+	border-radius: 200px;
+	left: 60px;
 	bottom: 0px;
 }
 
@@ -73,15 +76,17 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 170px;
+	border-radius: 200px;
+	left: 175px;
 	bottom: 150px;
 }
 
 #l #cross {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
+	border-radius: 200px;
 	left: 0px;
 	bottom: 0px;
 }
@@ -91,21 +96,23 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 110px;
+	left: 115px;
 	bottom: 150px;
+	border-radius: 200px;
 }
 
 #e #top {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
+	border-radius: 200px;
 	left: 0px;
 	bottom: 180px;
 }
 
 #e #cross {
-	background: rgba(0, 0, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
 	height: 20px;
 	width: 40px;
 	position: absolute;
@@ -114,12 +121,13 @@ body {
 }
 
 #e #bottom {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
+	border-radius: 200px;
 }
 
 #l2 {
@@ -127,134 +135,84 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 230px;
+	border-radius: 200px;
+	left: 235px;
 	bottom: 150px;
 }
 
 #l2 #cross {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
+	border-radius: 200px;
 	left: 0px;
 	bottom: 0px;
 }
 
 #o {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.2);
 	height: 200px;
-	width: 20px;
+	width: 60px;
 	position:absolute;
-	left: 290px;
+	left: 285px;
 	bottom: 150px;
-}
-
-#o #bottom {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-}
-
-#o #top {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-	bottom: 180px;
-}
-
-#o #right {
-	background: rgba(255, 255, 255, 0.5);
-	height: 200px;
-	width: 20px;
-	position:absolute;
-	left: 40px;
-	bottom: 0px;
+	border-radius: 200px;
 }
 
 #w {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255,255,255,0.5);
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 390px;
+	left: 380px;
 	bottom: 150px;
+	border-radius: 200px;
 }
 
 #w #bottom {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 80px;
 	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	left: -7px;
+	bottom: 15px;
+	-ms-transform: rotate(-40deg); /* IE 9 */
+  -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+  transform: rotate(-40deg);
+	border-radius: 200px;
 }
 
 #w #right {
-	background: rgba(255, 255, 255, 0.5);
-	height: 200px;
-	width: 20px;
-	position:absolute;
-	left: 40px;
-	bottom: 0px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 80px;
+	position: absolute;
+	left: 22px;
+	bottom: 15px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+  -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+  transform: rotate(40deg);border-radius: 200px;
 }
 
 #w #right2 {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255,255,255,0.5);
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 80px;
+	left: 75px;
 	bottom: 0px;
-}
-
-#w #bottom2 {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 60px;
-	bottom: 0px;
+	border-radius: 200px;
 }
 
 #o2 {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.2);
 	height: 200px;
-	width: 20px;
+	width: 60px;
 	position:absolute;
-	left: 510px;
+	left: 470px;
 	bottom: 150px;
-}
-
-#o2 #bottom {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-}
-
-#o2 #top {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-	bottom: 180px;
-}
-
-#o2 #right {
-	background: rgba(255, 255, 255, 0.5);
-	height: 200px;
-	width: 20px;
-	position:absolute;
-	left: 40px;
-	bottom: 0px;
+	border-radius: 200px;
 }
 
 #r {
@@ -262,26 +220,29 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 590px;
+	left: 535px;
 	bottom: 150px;
+	border-radius: 200px;
 }
 
 #r #cross {
-	background: rgba(0, 0, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
 	height: 20px;
-	width: 40px;
+	width: 60px;
 	position: absolute;
 	left: 0px;
 	bottom: 100px;
+	/*border-radius: 200px;*/
 }
 
 #r #top {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
 	left: 0px;
 	bottom: 180px;
+	border-radius: 200px;
 }
 
 #r #right {
@@ -289,16 +250,21 @@ body {
 	height: 100px;
 	width: 20px;
 	position:absolute;
-	left: 40px;
+	left: 50px;
 	bottom: 100px;
+	border-radius: 200px;
 }
 #r #right2 {
 	background: rgba(255, 255, 255, 0.5);
-	height: 100px;
+	height: 155px;
 	width: 20px;
 	position:absolute;
-	left: 50px;
-	bottom: 0px;
+	left: 40px;
+	bottom: -20px;
+	border-radius: 200px;
+	-ms-transform: rotate(-40deg); /* IE 9 */
+  -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+  transform: rotate(-40deg);
 }
 
 #l3 {
@@ -306,69 +272,36 @@ body {
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 680px;
+	border-radius: 200px;
+	left: 640px;
 	bottom: 150px;
 }
 
 #l3 #cross {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 40px;
+	width: 60px;
 	position: absolute;
+	border-radius: 200px;
 	left: 0px;
 	bottom: 0px;
 }
 
 #d {
+	background: rgba(255, 255, 255, 0.2);
+	height: 200px;
+	width: 60px;
+	position:absolute;
+	left: 700px;
+	bottom: 150px;
+	border-radius: 200px;
+}
+
+#d #side {
 	background: rgba(255, 255, 255, 0.5);
 	height: 200px;
 	width: 20px;
 	position:absolute;
-	left: 740px;
-	bottom: 150px;
-}
-
-#d #bottom {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
 	left: 0px;
-	bottom: 0px;
-}
-
-#d #top {
-	background: rgba(0, 0, 255, 0.2);
-	height: 20px;
-	width: 40px;
-	position: absolute;
-	left: 0px;
-	bottom: 180px;
-}
-
-#d #righttop {
-	background: rgba(255, 255, 255, 0.5);
-	height: 50px;
-	width: 20px;
-	position:absolute;
-	left: 40px;
-	bottom: 150px;
-}
-
-#d #rightbottom {
-	background: rgba(255, 255, 255, 0.5);
-	height: 50px;
-	width: 20px;
-	position:absolute;
-	left: 40px;
-	bottom: 0px;
-}
-
-#d #right {
-	background: rgba(255, 255, 255, 0.5);
-	height: 100px;
-	width: 20px;
-	position:absolute;
-	left: 50px;
-	bottom: 50px;
+	border-radius: 200px;
 }

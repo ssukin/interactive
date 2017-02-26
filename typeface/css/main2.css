@@ -1,0 +1,466 @@
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	position: relative;
+	background: rgb(100,100,100);
+	z-index: -20;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
+
+#h {
+	background: rgb(0, 0, 0);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 30px;
+	bottom: 150px;
+}
+
+#h #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 190px;
+}
+
+#h #orb2{
+	background: rgb(255, 255, 255);
+	height: 10px;
+	width: 10px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 170px;
+}
+
+#h #cross {
+	background: rgb(0, 0, 0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+#h #side {
+	background: rgb(255, 255, 255);
+	height: 200px;
+	width: 5px;
+	position:absolute;
+	left: 60px;
+	bottom: 0px;
+}
+
+#e {
+	background: rgb(0,0,0);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	/*left: 110px;*/
+	left: 95px;
+	bottom: 150px;
+}
+
+#e #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#e #top {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+#e #cross {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 35px;
+}
+
+#e #bottom {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 62px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#e #right {
+	background: rgb(0,0,0);
+	height: 20px;
+	width: 5px;
+	position: absolute;
+	left: 55px;
+	bottom: 35px;
+}
+
+#l {
+	background: rgb(0,0,0);
+	height: 55px;
+	width: 20px;
+	position:absolute;
+	left: 157px;
+	bottom: 150px;
+}
+
+#l #cross {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#l #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#l2 {
+	background: rgb(0,0,0);
+	height: 55px;
+	width: 20px;
+	position:absolute;
+	left: 217px;
+	bottom: 150px;
+}
+
+#l2 #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#l2 #cross {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o {
+	background: rgb(0,0,0);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	left: 277px;
+	bottom: 150px;
+}
+
+#o #bottom {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#o #top {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+#o #right {
+	background: rgb(255,255,255);
+	height: 55px;
+	width: 5px;
+	position:absolute;
+	left: 55px;
+	bottom: 0px;
+}
+
+#w {
+	background: rgb(0,0,0);
+	height: 200px;
+	width: 20px;
+	position:absolute;
+	left: 430px;
+	bottom: 150px;
+}
+
+#w #bottom {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 30px;
+	position: absolute;
+	left: 15px;
+	bottom: 58px;
+	-ms-transform: rotate(-40deg); /* IE 9 */
+  -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+  transform: rotate(-40deg);
+}
+
+#w #right {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 30px;
+	position: absolute;
+	left: 35px;
+	bottom: 58px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+  -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+  transform: rotate(40deg);
+}
+
+#w #right2 {
+	background: rgb(255,255,255);
+	height: 200px;
+	width: 5px;
+	position:absolute;
+	left: 60px;
+	bottom: 0px;
+}
+
+#w #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 190px;
+}
+
+#w #orb2{
+	background: rgb(255, 255, 255);
+	height: 10px;
+	width: 10px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 170px;
+}
+
+#o2 {
+	background: rgb(0,0,0);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	left: 495px;
+	bottom: 150px;
+}
+
+#o2 #bottom {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#o2 #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#o2 #top {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+#o2 #right {
+	background: rgb(255,255,255);
+	height: 55px;
+	width: 5px;
+	position:absolute;
+	left: 55px;
+	bottom: 0px;
+}
+
+#r {
+	background: rgb(0,0,0);
+	height: 55px;
+	width: 20px;
+	position:absolute;
+	left: 555px;
+	bottom: 150px;
+}
+
+#r #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#r #cross {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 10px;
+	position: absolute;
+	left: 20px;
+	bottom: 45px;
+}
+
+#r #top {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 35px;
+	position: absolute;
+	left: 30px;
+	bottom: 50px;
+}
+
+#l3 {
+	background: rgb(0,0,0);
+	height: 55px;
+	width: 20px;
+	position:absolute;
+	left: 615px;
+	bottom: 150px;
+}
+
+#l3 #cross {
+	background: rgb(255,255,255);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#l3 #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}
+
+#d {
+	background: rgb(0,0,0);
+	height: 50px;
+	width: 20px;
+	position:absolute;
+	left: 675px;
+	bottom: 150px;
+}
+
+#d #bottom {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#d #top {
+	background: rgb(0,0,0);
+	height: 5px;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+}
+
+#d #right {
+	background: rgb(255,255,255);
+	/*height: 55px;*/
+	height: 75px;
+	width: 5px;
+	position:absolute;
+	left: 60px;
+	bottom: 0px;
+}
+#d #orb{
+	background: rgb(255, 255, 255);
+	height: 20px;
+	width: 20px;
+	border-radius: 200px;
+	position:absolute;
+	left: -10px;
+	bottom: 45px;
+}

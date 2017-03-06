@@ -1,0 +1,86 @@
+.letter {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.a .top {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-bottom-color: transparent;
+  border-top-right-radius: 90px;
+  border-top-left-radius: 90px;
+  border-left-color: black;
+  border-right-color:black;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.a .cross {
+  background: black;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.h .left {
+  background: black;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.h .middle {
+  background: black;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 95px;
+}
+
+.h .right {
+  background: black;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.i .top {
+  background: black;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.i .middle {
+  background: black;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 95px;
+}
+
+.i .bottom {
+  background: black;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

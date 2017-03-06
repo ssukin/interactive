@@ -1,6 +1,7 @@
 nav {
   text-align: center;
   border-bottom: 1px solid black;
+  font-family: "arial"; font-weight: regular;
 }
 
 ul {
@@ -22,7 +23,8 @@ a {
 }
 
 a:hover {
-  background: yellow;
+  background: black;
+  color: white;
 }
 
 @media screen and (max-width: 420px) {

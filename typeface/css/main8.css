@@ -1,0 +1,66 @@
+.letter {
+  display: inline-block;
+  vertical-align: top;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.letter-inside {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h .left {
+  background: black;
+  width: 2vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.h .middle {
+  background: black;
+  height: 2vw;
+  width: 100%;
+}
+
+.h .right {
+  background: black;
+  width: 2vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.i .top {
+  background: black;
+  height: 2vw;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.i .middle {
+  background: black;
+  width: 2vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.i .bottom {
+  background: black;
+  height: 2vw;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

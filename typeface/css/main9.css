@@ -800,7 +800,7 @@
 
     .u .top {
       height: 180px;
-      width: 200px;
+      width: 180px;
       border-style: solid;
       border-width: 10px;
       border-color: black;
@@ -1009,15 +1009,17 @@
       border-style:solid;
       border-top-color:transparent;
       border-left-color: transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
     }
 
     .y .right {
-      height: 50px;
+      height: 70px;
       width: 180px;
       border-style: solid;
       border-width: 10px;
       border-color: black;
-      border-radius: 90px;
+      border-radius: 75px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
       border-top-left-radius: 0px;
@@ -1028,7 +1030,7 @@
 
     .y .open {
       background: black;
-      height: 50px;
+      height: 60px;
       width: 10px;
       position: absolute;
       left: 50px;
@@ -1037,7 +1039,7 @@
 
     .y .open2 {
       background: black;
-      height: 60px;
+      height: 40px;
       width: 10px;
       position: absolute;
       left: 50px;

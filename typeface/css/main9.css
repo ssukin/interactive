@@ -316,7 +316,7 @@
 
 .i .open {
   background: black;
-  height: 140px;
+  height: 150px;
   width: 10px;
   position: absolute;
   left: 50px;
@@ -349,7 +349,7 @@
 
 .j .open {
   background: black;
-  height: 130px;
+  height: 140px;
   width: 10px;
   position: absolute;
   left: 50px;
@@ -436,7 +436,7 @@
 
 .l .open {
   background: black;
-  height: 140px;
+  height: 150px;
   width: 10px;
   position: absolute;
   left: 50px;
@@ -1072,11 +1072,11 @@
 
 .z .open {
   background: black;
-  height: 90px;
+  height: 110px;
   width: 10px;
   position: absolute;
   left: 50px;
-  bottom: 80px;
+  bottom: 70px;
 }
 
 .z .cross {

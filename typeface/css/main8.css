@@ -662,6 +662,15 @@
     position: absolute;
   }
 
+  .p .bottom {
+    background: black;
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+  }
+
   .p .open {
     background: black;
     height: 200px;
@@ -719,6 +728,15 @@
   display:block;
   width: 200px;
   height: 200px;
+}
+
+.r .bottom {
+  background: black;
+  height: 10px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
 }
 
       .r .top {
@@ -833,6 +851,15 @@
     left: 50px;
     bottom: 0px;
   }
+  .t .bottom {
+    background: black;
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+  }
+
 
   .t .middle {
     background: black;
@@ -865,11 +892,20 @@
 
     .u .open {
       background: black;
-      height: 150px;
+      height: 180px;
       width: 10px;
       position: absolute;
       left: 50px;
-      bottom: 40px;
+      bottom: 10px;
+    }
+
+    .u .top2 {
+      background: black;
+      height: 10px;
+      width: 60px;
+      position: absolute;
+      left: 0;
+      top: 0px;
     }
 
 .v {
@@ -879,31 +915,31 @@
 }
     .v .cross2 {
       background: black;
-    	height: 100px;
+    	height: 140px;
     	width: 10px;
     	position: absolute;
     	-ms-transform: rotate(45deg); /* IE 9 */
       -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
       transform: rotate(45deg);
-      right: 50px;
-      top: 100px;
+      right: 48px;
+      top: 75px;
     }
 
     .v .cross {
       background: black;
-    	height: 100px;
+    	height: 140px;
     	width: 10px;
     	position: absolute;
     	-ms-transform: rotate(-45deg); /* IE 9 */
       -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
       transform: rotate(-45deg);
-      left: 50px;
-      top: 100px;
+      left: 48px;
+      top: 75px;
     }
 
     .v .left {
       background: black;
-      height: 100px;
+      height: 99px;
       width: 10px;
       position: absolute;
       left: 0;
@@ -912,19 +948,27 @@
 
     .v .open {
       background: black;
-      height: 120px;
+      height: 150px;
       width: 10px;
       position: absolute;
       left: 50px;
-      bottom: 80px;
+      bottom: 50px;
     }
 
     .v .right {
       background: black;
-      height: 100px;
+      height: 99px;
       width: 10px;
       position: absolute;
       right: 0;
+      top: 0px;
+    }
+    .v .top {
+      background: black;
+      height: 10px;
+      width: 60px;
+      position: absolute;
+      left: 0;
       top: 0px;
     }
 
@@ -934,9 +978,17 @@
   height: 200px;
 }
 
+  .w .top {
+    background: black;
+    height: 10px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
     .w .left {
       height: 180px;
-      width: 75px;
+      width: 115px;
       border-style: solid;
       border-width: 10px;
       border-color: black;
@@ -951,7 +1003,7 @@
 
     .w .right {
       height: 180px;
-      width: 75px;
+      width: 85px;
       border-style: solid;
       border-width: 10px;
       border-color: black;
@@ -959,6 +1011,7 @@
       border-top-color:transparent;
       border-top-right-radius: 0px;
       border-top-left-radius: 0px;
+      border-left-color: transparent;
       right: 0px;
       bottom: 0;
       position:absolute;
@@ -966,79 +1019,57 @@
 
     .w .open {
       background: black;
-      height: 160px;
+      height: 180px;
       width: 10px;
       position: absolute;
       left: 50px;
       top: 10px;
     }
+
 .x {
   display:block;
   width: 200px;
   height: 200px;
 }
+  .x .top {
+    background: black;
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+  }
         .x .cross2 {
           background: black;
-        	height: 280px;
+        	height: 277px;
         	width: 10px;
         	position: absolute;
         	-ms-transform: rotate(45deg); /* IE 9 */
           -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
           transform: rotate(45deg);
           right: 78px;
-          top: -38px;
+          top: -34px;
         }
 
         .x .cross {
           background: black;
-        	height: 280px;
+        	height: 277px;
         	width: 10px;
         	position: absolute;
         	-ms-transform: rotate(-45deg); /* IE 9 */
           -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
           transform: rotate(-45deg);
           left: 100px;
-          top: -38px;
-        }
-        .x .cross3 {
-          background: black;
-          height: 100px;
-          width: 10px;
-          position: absolute;
-          -ms-transform: rotate(-45deg); /* IE 9 */
-          -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-          transform: rotate(-45deg);
-          left: 40px;
-          top: 27px;
-        }
-        .x .cross4 {
-          background: black;
-          height: 100px;
-          width: 10px;
-          position: absolute;
-          -ms-transform: rotate(45deg); /* IE 9 */
-          -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-          transform: rotate(45deg);
-          left: 40px;
-          top: 92px;
+          top: -34px;
         }
 
         .x .open {
           background: black;
-          height: 25px;
+          height: 168px;
           width: 10px;
           position: absolute;
           left: 50px;
           top: 0px;
-        }
-
-        .x .open2 {
-          background: black;
-          height: 15px;
-          width: 10px;
-          position: absolute;
-          left: 50px;
-          bottom: -5px;
         }
 
 
@@ -1048,6 +1079,14 @@
   height: 200px;
 }
 
+.y .top {
+  background: black;
+  height: 10px;
+  width: 60px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
     .y .right2 {
       height: 180px;
       width: 180px;
@@ -1079,20 +1118,11 @@
 
         .y .open {
           background: black;
-          height: 60px;
+          height: 200px;
           width: 10px;
           position: absolute;
           left: 50px;
           top: 0px;
-        }
-
-        .y .open2 {
-          background: black;
-          height: 40px;
-          width: 10px;
-          position: absolute;
-          left: 50px;
-          bottom: 20px;
         }
 
 .z {
@@ -1121,21 +1151,21 @@
 
 .z .open {
   background: black;
-  height: 90px;
+  height: 143px;
   width: 10px;
   position: absolute;
   left: 50px;
-  bottom: 80px;
+  top: 0px;
 }
 
 .z .cross {
   background: black;
-  height: 200px;
+  height: 270px;
   width: 10px;
   position: absolute;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
   transform: rotate(45deg);
-  left: 100px;
-  top: 5px;
+  left: 96px;
+  top: -35px;
 }

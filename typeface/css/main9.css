@@ -1406,20 +1406,20 @@
 
   .seven .open {
     background: black;
-    height: 60px;
+    height: 80px;
     width: 10px;
     position: absolute;
     left: 50px;
-    bottom: 20px;
+    bottom: 0px;
   }
 
   .seven .right {
     background: black;
-    height: 160px;
+    height: 180px;
     width: 10px;
     position: absolute;
     right: 0px;
-    bottom: 20px;
+    bottom: 0px;
   }
 
   .eight .top {
@@ -1431,7 +1431,7 @@
     border-color: black;
     border-radius: 90px;
     top: 0px;
-    left: 10px;
+    left: 12.5px;
     position: absolute;
   }
 

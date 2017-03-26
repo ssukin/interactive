@@ -1090,3 +1090,450 @@
   left: 100px;
   top: 5px;
 }
+
+.one {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.one .top {
+  background: black;
+  height: 10px;
+  width: 110px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+.one .bottom {
+  background: black;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.one .open {
+  background: black;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.one .center {
+  background: black;
+  height: 160px;
+  width: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+
+.two {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .two .top {
+    display:block;
+    width: 130px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius:90px;
+    border-left-color:transparent;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    /*border-bottom-width: 180px;*/
+    top: 0px;
+    position: absolute;
+  }
+
+  .two .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 0px;
+    border-right-color:transparent;
+    border-top-color: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+  }
+  .two .open {
+    background: black;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .two .open2 {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+.three {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .three .top {
+    display:block;
+    width: 130px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius:90px;
+    border-left-color:transparent;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    /*border-bottom-width: 180px;*/
+    top: 0px;
+    position: absolute;
+  }
+
+  .three .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 60px;
+    border-left-color:transparent;
+    /*border-top-right-radius: 0px;*/
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+  }
+  .three .open {
+    background: black;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .three .open2 {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+.four {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .four .right2 {
+      background: black;
+      height: 200px;
+      width: 10px;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+
+    .four .right {
+      height: 70px;
+      width: 180px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: black;
+      border-radius: 75px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      right: 0px;
+      top: 0;
+      position:absolute;
+    }
+
+    .four .open {
+      background: black;
+      height: 60px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      top: 0px;
+    }
+
+    .four .open2 {
+      background: black;
+      height: 75px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 0px;
+    }
+
+.five {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .five .top {
+    display:block;
+    width: 175px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius:90px;
+    border-right-color:transparent;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    top: 0px;
+    right:0px;
+    position: absolute;
+  }
+
+  .five .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 0px;
+    border-left-color:transparent;
+    border-top-color: transparent;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    right: 0px;
+    bottom: 0;
+    position:absolute;
+  }
+  .five .open {
+    background: black;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .five .open2 {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+  .six .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+    top: 0px;
+    position: absolute;
+  }
+
+  .six .bottom {
+    display:block;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    bottom: 0;
+    position: absolute;
+  }
+  .six .open {
+    background: black;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .six .open2 {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .seven {
+    display:block;
+    width: 200px;
+    height: 200px;
+  }
+
+  .seven .top {
+    background: black;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+
+  .seven .open {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .seven .right {
+    background: black;
+    height: 160px;
+    width: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+  }
+
+  .eight .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 90px;
+    top: 0px;
+    left: 10px;
+    position: absolute;
+  }
+
+  .eight .bottom {
+    display:block;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-top-color: transparent;
+    border-radius: 90px;
+    bottom: 0;
+    position: absolute;
+  }
+  .eight .open {
+    background: black;
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .eight .open2 {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .nine .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 90px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .nine .bottom {
+    display:block;
+    width: 180px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 90px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-top-right-radius: 0px;
+    bottom: 0;
+    position: absolute;
+  }
+  .nine .open {
+    background: black;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .nine .open2 {
+    background: black;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .zero {
+    display:block;
+    width: 200px;
+    height: 200px;
+  }
+
+    .zero .top {
+      height: 180px;
+      width: 200px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: black;
+      border-radius: 45px;
+      left: 0;
+      bottom: 0;
+    }
+
+    .zero .open {
+      background: black;
+      height: 140px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }

@@ -96,14 +96,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: yellow;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .c .open {
-  background: black;
+  background: yellow;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -117,13 +117,13 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: yellow;
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
 }
 
 .d .open {
-  background: black;
+  background: yellow;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -137,14 +137,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: yellow;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .e .cross {
-  background: black;
+  background: yellow;
   height: 10px;
   width: 120px;
   left: 70px;
@@ -153,7 +153,7 @@
 }
 
 .e .open {
-  background: black;
+  background: yellow;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -378,7 +378,7 @@
 }
 
 .k .left {
-  background: black;
+  background: yellow;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -387,7 +387,7 @@
 }
 
 .k .open {
-  background: black;
+  background: yellow;
   height: 170px;
   width: 10px;
   position: absolute;
@@ -396,7 +396,7 @@
 }
 
 .k .cross {
-  background: black;
+  background: yellow;
 	height: 150px;
 	width: 10px;
 	position: absolute;
@@ -408,7 +408,7 @@
 }
 
 .k .cross2 {
-  background: black;
+  background: yellow;
 	height: 125px;
 	width: 10px;
 	position: absolute;
@@ -426,7 +426,7 @@
 }
 
 .l .bottom {
-  background: black;
+  background: yellow;
   height: 10px;
   width: 170px;
   position: absolute;
@@ -435,7 +435,7 @@
 }
 
 .l .open {
-  background: black;
+  background: yellow;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -444,7 +444,7 @@
 }
 
 .l .left {
-  background: black;
+  background: yellow;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -517,7 +517,7 @@
 }
 
 .n .left {
-  background: black;
+  background: yellow;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -526,7 +526,7 @@
 }
 
 .n .open {
-  background: black;
+  background: yellow;
   height: 120px;
   width: 10px;
   position: absolute;
@@ -535,7 +535,7 @@
 }
 
 .n .cross {
-  background: black;
+  background: yellow;
 	height: 190px;
 	width: 10px;
 	position: absolute;
@@ -547,7 +547,7 @@
 }
 
 .n .right {
-  background: black;
+  background: yellow;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -567,14 +567,14 @@
     width: 200px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: yellow;
     border-radius: 90px;
     left: 0;
     bottom: 0;
   }
 
   .o .open {
-    background: black;
+    background: yellow;
     height: 140px;
     width: 10px;
     position: absolute;
@@ -803,7 +803,7 @@
       width: 180px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: yellow;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -813,7 +813,7 @@
     }
 
     .u .open {
-      background: black;
+      background: yellow;
       height: 150px;
       width: 10px;
       position: absolute;

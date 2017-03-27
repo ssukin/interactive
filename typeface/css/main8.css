@@ -13,19 +13,19 @@
   width: 200px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-bottom-color: transparent;
   border-top-right-radius: 90px;
   border-top-left-radius: 90px;
-  border-left-color: black;
-  border-right-color:black;
+  border-left-color: white;
+  border-right-color:white;
   left: 0;
   top: 0;
   bottom: 0;
 }
 
 .a .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -34,7 +34,7 @@
 }
 
 .a .open {
-  background: black;
+  background: white;
   height: 180px;
   width: 10px;
   position: absolute;
@@ -43,7 +43,7 @@
 }
 
 .a .cross {
-  background: black;
+  background: white;
   height: 10px;
   width: 220px;
   left: 0px;
@@ -57,7 +57,7 @@
   height: 90px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
@@ -72,7 +72,7 @@
   height: 100px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-top-color: transparent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 90px;
@@ -83,7 +83,7 @@
 }
 
 .b .open {
-  background: black;
+  background: white;
   height: 180px;
   width: 10px;
   position: absolute;
@@ -92,7 +92,7 @@
 }
 
 .b .open2 {
-  background: black;
+  background: white;
   height: 60px;
   width: 10px;
   position: absolute;
@@ -177,14 +177,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-top-left-radius: 90px;
 }
 
 .f .cross {
-  background: black;
+  background: white;
   height: 10px;
   width: 180px;
   left: 0px;
@@ -193,7 +193,7 @@
 }
 
 .f .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -202,7 +202,7 @@
 }
 
 .f .open {
-  background: black;
+  background: white;
   height: 180px;
   width: 10px;
   position: absolute;
@@ -216,14 +216,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .g .open {
-  background: black;
+  background: white;
   height: 180px;
   width: 10px;
   position: absolute;
@@ -232,7 +232,7 @@
 }
 
 .g .cross {
-  background: black;
+  background: white;
   height: 10px;
   width: 100px;
   right: 0px;
@@ -241,7 +241,7 @@
 }
 
 .g .right {
-  background: black;
+  background: white;
   height: 120px;
   width: 10px;
   position: absolute;
@@ -256,7 +256,7 @@
 }
 
 .h .top {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -265,7 +265,7 @@
 }
 
 .h .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -274,7 +274,7 @@
 }
 
 .h .right {
-  background: black;
+  background: white;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -283,7 +283,7 @@
 }
 
 .h .left {
-  background: black;
+  background: white;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -292,7 +292,7 @@
 }
 
 .h .open {
-  background: black;
+  background: white;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -301,7 +301,7 @@
 }
 
 .h .cross {
-  background: black;
+  background: white;
   height: 10px;
   width: 200px;
   left: 0px;
@@ -358,7 +358,7 @@
 }
 
 .j .top {
-  background: black;
+  background: white;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -367,7 +367,7 @@
 }
 
 .j .open {
-  background: black;
+  background: white;
   height: 190px;
   width: 10px;
   position: absolute;
@@ -380,7 +380,7 @@
   width: 100px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: white;
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-right-radius: 90px;
@@ -503,7 +503,7 @@
 }
 
 .m .cross2 {
-  background: black;
+  background: white;
 	height: 140px;
 	width: 10px;
 	position: absolute;
@@ -515,7 +515,7 @@
 }
 
 .m .cross {
-  background: black;
+  background: white;
 	height: 140px;
 	width: 10px;
 	position: absolute;
@@ -527,7 +527,7 @@
 }
 
 .m .left {
-  background: black;
+  background: white;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -536,7 +536,7 @@
 }
 
 .m .open {
-  background: black;
+  background: white;
   height: 147px;
   width: 10px;
   position: absolute;
@@ -545,7 +545,7 @@
 }
 
 .m .right {
-  background: black;
+  background: white;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -554,7 +554,7 @@
 }
 
 .m .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -653,7 +653,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 90px;
     border-top-right-radius: 90px;
@@ -663,7 +663,7 @@
   }
 
   .p .bottom {
-    background: black;
+    background: white;
     height: 10px;
     width: 50px;
     position: absolute;
@@ -672,7 +672,7 @@
   }
 
   .p .open {
-    background: black;
+    background: white;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -681,7 +681,7 @@
   }
 
   .p .left {
-    background: black;
+    background: white;
     height: 150px;
     width: 10px;
     position: absolute;
@@ -700,14 +700,14 @@
       width: 200px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: white;
       border-radius: 90px;
       left: 0;
       bottom: 0;
     }
 
     .q .open {
-      background: black;
+      background: white;
       height: 180px;
       width: 10px;
       position: absolute;
@@ -716,7 +716,7 @@
     }
 
     .q .tail {
-      background: black;
+      background: white;
       height: 50px;
       width: 10px;
       position: absolute;
@@ -731,7 +731,7 @@
 }
 
 .r .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 50px;
   position: absolute;
@@ -744,7 +744,7 @@
         height: 90px;
         border-style: solid;
         border-width: 10px;
-        border-color: black;
+        border-color: white;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 90px;
         border-top-right-radius: 90px;
@@ -754,7 +754,7 @@
       }
 
       .r .open {
-        background: black;
+        background: white;
         height: 200px;
         width: 10px;
         position: absolute;
@@ -763,7 +763,7 @@
       }
 
       .r .left {
-        background: black;
+        background: white;
         height: 150px;
         width: 10px;
         position: absolute;
@@ -772,7 +772,7 @@
       }
 
       .r .cross {
-        background: black;
+        background: white;
       	height: 135px;
       	width: 10px;
       	position: absolute;
@@ -794,7 +794,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius:90px;
     border-right-color:transparent;
     border-bottom-right-radius:0px;
@@ -809,7 +809,7 @@
     width: 140px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 60px;
     border-left-color:transparent;
     border-top-left-radius: 0px;
@@ -820,7 +820,7 @@
     position:absolute;
   }
   .s .open {
-    background: black;
+    background: white;
     height: 110px;
     width: 10px;
     position: absolute;
@@ -914,7 +914,7 @@
   height: 200px;
 }
     .v .cross2 {
-      background: black;
+      background: white;
     	height: 140px;
     	width: 10px;
     	position: absolute;
@@ -926,7 +926,7 @@
     }
 
     .v .cross {
-      background: black;
+      background: white;
     	height: 140px;
     	width: 10px;
     	position: absolute;
@@ -938,7 +938,7 @@
     }
 
     .v .left {
-      background: black;
+      background: white;
       height: 99px;
       width: 10px;
       position: absolute;
@@ -947,7 +947,7 @@
     }
 
     .v .open {
-      background: black;
+      background: white;
       height: 150px;
       width: 10px;
       position: absolute;
@@ -956,7 +956,7 @@
     }
 
     .v .right {
-      background: black;
+      background: white;
       height: 99px;
       width: 10px;
       position: absolute;
@@ -964,7 +964,7 @@
       top: 0px;
     }
     .v .top {
-      background: black;
+      background: white;
       height: 10px;
       width: 60px;
       position: absolute;
@@ -979,7 +979,7 @@
 }
 
   .w .top {
-    background: black;
+    background: white;
     height: 10px;
     width: 60px;
     position: absolute;
@@ -991,7 +991,7 @@
       width: 115px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: white;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -1006,7 +1006,7 @@
       width: 85px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: white;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -1018,7 +1018,7 @@
     }
 
     .w .open {
-      background: black;
+      background: white;
       height: 180px;
       width: 10px;
       position: absolute;
@@ -1032,7 +1032,7 @@
   height: 200px;
 }
   .x .top {
-    background: black;
+    background: white;
     height: 10px;
     width: 50px;
     position: absolute;
@@ -1040,7 +1040,7 @@
     top: 0px;
   }
         .x .cross2 {
-          background: black;
+          background: white;
         	height: 277px;
         	width: 10px;
         	position: absolute;
@@ -1052,7 +1052,7 @@
         }
 
         .x .cross {
-          background: black;
+          background: white;
         	height: 277px;
         	width: 10px;
         	position: absolute;
@@ -1064,7 +1064,7 @@
         }
 
         .x .open {
-          background: black;
+          background: white;
           height: 168px;
           width: 10px;
           position: absolute;
@@ -1080,7 +1080,7 @@
 }
 
 .y .top {
-  background: black;
+  background: white;
   height: 10px;
   width: 60px;
   position: absolute;
@@ -1095,7 +1095,7 @@
       right: 0;
       bottom: 0px;
       border-bottom-right-radius: 90px;
-      border-color:black;
+      border-color:white;
       border-style:solid;
       border-top-color:transparent;
       border-left-color: transparent;
@@ -1106,7 +1106,7 @@
           width: 180px;
           border-style: solid;
           border-width: 10px;
-          border-color: black;
+          border-color: white;
           border-radius: 75px;
           border-top-color:transparent;
           border-top-right-radius: 0px;
@@ -1117,7 +1117,7 @@
         }
 
         .y .open {
-          background: black;
+          background: white;
           height: 200px;
           width: 10px;
           position: absolute;
@@ -1132,7 +1132,7 @@
 }
 
 .z .top {
-  background: black;
+  background: white;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -1141,7 +1141,7 @@
 }
 
 .z .bottom {
-  background: black;
+  background: white;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -1150,7 +1150,7 @@
 }
 
 .z .open {
-  background: black;
+  background: white;
   height: 143px;
   width: 10px;
   position: absolute;
@@ -1159,7 +1159,7 @@
 }
 
 .z .cross {
-  background: black;
+  background: white;
   height: 270px;
   width: 10px;
   position: absolute;
@@ -1224,7 +1224,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius:90px;
     border-left-color: transparent;
     border-bottom-left-radius:0px;
@@ -1239,7 +1239,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 0px;
     border-right-color:transparent;
     border-top: transparent;
@@ -1251,7 +1251,7 @@
   }
 
   .two .open {
-    background: black;
+    background: white;
     height: 120px;
     width: 10px;
     position: absolute;
@@ -1270,7 +1270,7 @@
     height: 83px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius:90px;
     border-left-color:transparent;
     border-bottom-left-radius:0px;
@@ -1285,7 +1285,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 60px;
     border-left-color:transparent;
     border-top-left-radius: 0px;
@@ -1295,7 +1295,7 @@
     position:absolute;
   }
   .three .open {
-    background: black;
+    background: white;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -1310,7 +1310,7 @@
 }
 
     .four .right2 {
-      background: black;
+      background: white;
       height: 200px;
       width: 10px;
       position: absolute;
@@ -1323,7 +1323,7 @@
       width: 180px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: white;
       border-radius: 75px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -1334,7 +1334,7 @@
     }
 
     .four .open {
-      background: black;
+      background: white;
       height: 70px;
       width: 10px;
       position: absolute;
@@ -1344,7 +1344,7 @@
 
     .four .top {
       top: 10px;
-      background: black;
+      background: white;
       height: 10px;
       width: 50px;
       position: absolute;
@@ -1363,7 +1363,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius:90px;
     border-right-color:transparent;
     border-bottom-right-radius:0px;
@@ -1378,7 +1378,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 0px;
     border-left-color:transparent;
     border-top-left-radius: 0px;
@@ -1389,7 +1389,7 @@
     position:absolute;
   }
   .five .open {
-    background: black;
+    background: white;
     height: 90px;
     width: 10px;
     position: absolute;
@@ -1403,7 +1403,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-bottom-left-radius: 0px;
@@ -1420,7 +1420,7 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 90px;
     border-top-right-radius: 90px;
@@ -1428,7 +1428,7 @@
     position: absolute;
   }
   .six .open {
-    background: black;
+    background: white;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -1443,7 +1443,7 @@
   }
 
   .seven .top {
-    background: black;
+    background: white;
     height: 10px;
     width: 200px;
     position: absolute;
@@ -1452,7 +1452,7 @@
   }
 
   .seven .bottom {
-    background: black;
+    background: white;
     width: 150px;
     height: 10px;
     position: absolute;
@@ -1461,7 +1461,7 @@
   }
 
   .seven .open {
-    background: black;
+    background: white;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -1470,7 +1470,7 @@
   }
 
   .seven .right {
-    background: black;
+    background: white;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -1484,7 +1484,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 90px;
     top: 0px;
     left: 0px;
@@ -1497,7 +1497,7 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-top-color: transparent;
     border-radius: 90px;
     left: 12.5px;
@@ -1505,7 +1505,7 @@
     position: absolute;
   }
   .eight .open {
-    background: black;
+    background: white;
     height: 195px;
     width: 10px;
     position: absolute;
@@ -1519,7 +1519,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 90px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -1534,7 +1534,7 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
     border-radius: 90px;
     border-left-color: transparent;
     border-top-color: transparent;
@@ -1543,7 +1543,7 @@
     position: absolute;
   }
   .nine .open {
-    background: black;
+    background: white;
     height: 95px;
     width: 10px;
     position: absolute;
@@ -1562,14 +1562,14 @@
       width: 200px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: white;
       border-radius: 45px;
       left: 0;
       bottom: 0;
     }
 
     .zero .open {
-      background: black;
+      background: white;
       height: 190px;
       width: 10px;
       position: absolute;

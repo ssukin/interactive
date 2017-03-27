@@ -9,59 +9,80 @@
 	.letter{
 		margin-left: 200px;
  		margin-top: 200px;
-		position: absolute;
+		position: relative;
 	}
 
-	/*.al:hover { //I NEED SOMETHING THAT LOOKS LIKE THIS
-		.letter{
-			position: absolute;
-		}
-	}*/
+.highlight{
+	position: absolute;
+}
+
+.contentA {
+    display:none;
+}
+
+.contentB {
+    display:none;
+}
+
+.al{
+	/*background-color: blue;*/
+	height:300vh;
+}
 
 	p.let {
-		margin-left: 200px;
- 		margin-top: 200px;
+		/*margin-left: 200px;
+ 		margin-top: 200px;*/
 		position: absolute;
+		margin-bottom: 100px;
 	}
 	.lett {
 		position: relative;
 	}
 	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 </head>
+<body style="background-color:black;">
 
-<body style="background-color:#FF83C5;">
-	<!-- <div class="al"> -->
-		<p class="let">
-	<div class="letter l">
-		<div class="left"></div>
-		<div class="bottom"></div>
-		<div class="open"></div>
-		<div class="top"></div>
-	</div>
-	<div class="letter o">
-		<div class="top"></div>
-		<div class="open"></div>
-	</div>
-	<div class="letter c">
-		<div class="open"></div>
-	</div>
-	<div class="letter k">
-		<div class="open"></div>
-		<div class="left"></div>
-		<div class="cross"></div>
-		<div class="cross2"></div>
-		<div class="top"></div>
-		<div class="bottom"></div>
-	</div>
-	<div class="letter e">
-		<div class="cross"></div>
-		<div class="open"></div>
-	</div>
-	<div class="letter d">
-		<div class="open"></div>
-	</div>
-	<div> <br><br><br><br><br><br><br><br><br><br></div>
+	<div class="al">
 
+		<div class="letter l">
+			<div class="left"></div>
+			<div class="bottom"></div>
+			<div class="open"></div>
+			<div class="top"></div>
+		</div>
+
+		<div class="letter o">
+			<div class="top"></div>
+			<div class="open"></div>
+		</div>
+
+		<div class="letter c">
+			<div class="open"></div>
+		</div>
+
+		<div class="letter k">
+			<div class="open"></div>
+			<div class="left"></div>
+			<div class="cross"></div>
+			<div class="cross2"></div>
+			<div class="top"></div>
+			<div class="bottom"></div>
+		</div>
+
+		<div class="letter e">
+			<div class="cross"></div>
+			<div class="open"></div>
+		</div>
+
+		<div class="letter d">
+			<div class="open"></div>
+		</div>
+
+	<!-- <div> <br><br><br><br><br><br><br><br><br><br></div>
 	<div class="letter u">
 		<div class="top"></div>
 		<div class="open"></div>
@@ -92,8 +113,6 @@
 		<div class="open"></div>
 		<div class="top"></div>
 	</div>
-	<div> <br><br><br><br><br><br><br><br><br><br><br></div>
-	</p>
 	<div class="lett">
 		<div class="letter one">
 			<div class="top"></div>
@@ -101,29 +120,101 @@
 			<div class="open"></div>
 			<div class="center"></div>
 		</div>
-		<!-- <div> <br><br><br><br><br><br><br><br><br><br><br></div> -->
 		<div class="letter one">
 			<div class="top"></div>
 			<div class="bottom"></div>
 			<div class="open"></div>
 			<div class="center"></div>
 		</div>
-		<!-- <div> <br><br><br><br><br><br><br><br><br><br><br></div> -->
 		<div class="letter one">
 			<div class="top"></div>
 			<div class="bottom"></div>
 			<div class="open"></div>
 			<div class="center"></div>
 		</div>
-		<!-- <div> <br><br><br><br><br><br><br><br><br><br><br></div> -->
 		<div class="letter one">
 			<div class="top"></div>
 			<div class="bottom"></div>
 			<div class="open"></div>
 			<div class="center"></div>
 		</div>
+	</div> -->
+
+	<!-- <div id="div1" class="letter one">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="center"></div>
 	</div>
-<!-- </div> -->
+	<div id="div2" class="letter two">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div cid="div3" lass="letter three">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div class="letter four">
+		<div class="open"></div>
+		<div class="open2"></div>
+		<div class="right2"></div>
+		<div class="right"></div>
+	</div>
+	<div class="letter five">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div class="letter six">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div class="letter seven">
+		<div class="top"></div>
+		<div class="open"></div>
+		<div class="right"></div>
+	</div> -->
+	<div class="letter eight">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div id="eight" class="letter nine">
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="open"></div>
+		<div class="open2"></div>
+	</div>
+	<div id="nine" class="letter zero">
+		<div class="top"></div>
+		<div class="open"></div>
+	</div>
+	<div id="displayArea"></div>
+</div>
+
+<script>
+$( ".al" ).hover(function() {
+  $( ".letter" ).toggleClass( "highlight" );
+});
+
+$(document).ready(function () {
+    // Handler for .ready() called.
+    window.setTimeout(function () {
+        location.href = "file:///Users/ssukin/Desktop/interactive/typeface/type5.html";
+				// location.href = "https://ssukin.github.io/interactive/typeface/type5.html";
+    }, 10000);
+});
+
+</script>
+
 </body>
 
 </html>

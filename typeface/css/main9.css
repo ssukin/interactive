@@ -8,24 +8,34 @@
   float: left;
 }
 
+#div1.active{background:blue;}
+#div2.active{background:purple;}
+#div3.active{background:red;}
+#div4.active{background:blue;}
+#div5.active{background:purple;}
+#div6.active{background:red;}
+#div7.active{background:blue;}
+#div8.active{background:purple;}
+#div9.active{background:red;}
+
 .a .top {
   height: 180px;
   width: 200px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-bottom-color: transparent;
   border-top-right-radius: 90px;
   border-top-left-radius: 90px;
-  border-left-color: black;
-  border-right-color:black;
+  border-left-color: purple;
+  border-right-color:purple;
   left: 0;
   top: 0;
   bottom: 0;
 }
 
 .a .open {
-  background: black;
+  background: purple;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -34,7 +44,7 @@
 }
 
 .a .cross {
-  background: black;
+  background: purple;
   height: 10px;
   width: 120px;
   left: 70px;
@@ -48,7 +58,7 @@
   height: 90px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
@@ -63,7 +73,7 @@
   height: 100px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-top-color: transparent;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 90px;
@@ -73,7 +83,7 @@
   position: absolute;
 }
 .b .open {
-  background: black;
+  background: purple;
   height: 70px;
   width: 10px;
   position: absolute;
@@ -82,7 +92,7 @@
 }
 
 .b .open2 {
-  background: black;
+  background: purple;
   height: 60px;
   width: 10px;
   position: absolute;
@@ -96,14 +106,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: white;
+  border-color: purple;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .c .open {
-  background: white;
+  background: purple;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -117,13 +127,13 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: white;
+  border-color: purple;
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
 }
 
 .d .open {
-  background: white;
+  background: purple;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -137,14 +147,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: white;
+  border-color: purple;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .e .cross {
-  background: white;
+  background: purple;
   height: 10px;
   width: 120px;
   left: 70px;
@@ -153,7 +163,7 @@
 }
 
 .e .open {
-  background: white;
+  background: purple;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -167,14 +177,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-top-left-radius: 90px;
 }
 
 .f .cross {
-  background: black;
+  background: purple;
   height: 10px;
   width: 120px;
   left: 70px;
@@ -183,7 +193,7 @@
 }
 
 .f .open {
-  background: black;
+  background: purple;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -197,14 +207,14 @@
   height: 180px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-right-color: transparent;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 }
 
 .g .open {
-  background: black;
+  background: purple;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -213,7 +223,7 @@
 }
 
 .g .cross {
-  background: black;
+  background: purple;
   height: 10px;
   width: 80px;
   right: 20px;
@@ -222,7 +232,7 @@
 }
 
 .g .right {
-  background: black;
+  background: purple;
   height: 100px;
   width: 10px;
   position: absolute;
@@ -237,7 +247,7 @@
 }
 
 .h .right {
-  background: black;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -246,7 +256,7 @@
 }
 
 .h .left {
-  background: black;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -255,7 +265,7 @@
 }
 
 /*.h .open {
-  background: black;
+  background: purple;
   height: 180px;
   width: 10px;
   position: absolute;
@@ -264,7 +274,7 @@
 }
 
 .h .cross {
-  background: black;
+  background: purple;
   height: 10px;
   width: 180px;
   position: absolute;
@@ -273,7 +283,7 @@
 }*/
 
 .h .open {
-  background: black;
+  background: purple;
   height: 170px;
   width: 10px;
   position: absolute;
@@ -282,7 +292,7 @@
 }
 
 .h .cross {
-  background: black;
+  background: purple;
   height: 10px;
   width: 100px;
   left: 70px;
@@ -297,7 +307,7 @@
 }
 
 .i .top {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -306,7 +316,7 @@
 }
 
 .i .bottom {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -315,7 +325,7 @@
 }
 
 .i .open {
-  background: black;
+  background: purple;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -324,7 +334,7 @@
 }
 
 .i .center {
-  background: black;
+  background: purple;
   height: 160px;
   width: 10px;
   position: absolute;
@@ -339,7 +349,7 @@
 }
 
 .j .top {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -348,7 +358,7 @@
 }
 
 .j .open {
-  background: black;
+  background: purple;
   height: 140px;
   width: 10px;
   position: absolute;
@@ -361,12 +371,12 @@
   width: 100px;
   border-style: solid;
   border-width: 10px;
-  border-color: black;
+  border-color: purple;
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-right-radius: 90px;
-  /*border-left-color: black;
-  border-right-color:black;*/
+  /*border-left-color: purple;
+  border-right-color:purple;*/
   left: 100px;
   top: 0;
 }
@@ -378,7 +388,7 @@
 }
 
 .k .left {
-  background: white;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -387,7 +397,7 @@
 }
 
 .k .open {
-  background: white;
+  background: purple;
   height: 170px;
   width: 10px;
   position: absolute;
@@ -396,7 +406,7 @@
 }
 
 .k .cross {
-  background: white;
+  background: purple;
 	height: 150px;
 	width: 10px;
 	position: absolute;
@@ -408,7 +418,7 @@
 }
 
 .k .cross2 {
-  background: white;
+  background: purple;
 	height: 125px;
 	width: 10px;
 	position: absolute;
@@ -426,7 +436,7 @@
 }
 
 .l .bottom {
-  background: white;
+  background: purple;
   height: 10px;
   width: 170px;
   position: absolute;
@@ -435,7 +445,7 @@
 }
 
 .l .open {
-  background: white;
+  background: purple;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -444,7 +454,7 @@
 }
 
 .l .left {
-  background: white;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -460,7 +470,7 @@
 }
 
 .m .cross2 {
-  background: black;
+  background: purple;
 	height: 100px;
 	width: 10px;
 	position: absolute;
@@ -472,7 +482,7 @@
 }
 
 .m .cross {
-  background: black;
+  background: purple;
 	height: 100px;
 	width: 10px;
 	position: absolute;
@@ -484,7 +494,7 @@
 }
 
 .m .left {
-  background: black;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -493,7 +503,7 @@
 }
 
 .m .open {
-  background: black;
+  background: purple;
   height: 120px;
   width: 10px;
   position: absolute;
@@ -502,7 +512,7 @@
 }
 
 .m .right {
-  background: black;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -517,7 +527,7 @@
 }
 
 .n .left {
-  background: white;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -526,7 +536,7 @@
 }
 
 .n .open {
-  background: white;
+  background: purple;
   height: 120px;
   width: 10px;
   position: absolute;
@@ -535,7 +545,7 @@
 }
 
 .n .cross {
-  background: white;
+  background: purple;
 	height: 190px;
 	width: 10px;
 	position: absolute;
@@ -547,7 +557,7 @@
 }
 
 .n .right {
-  background: white;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -567,14 +577,14 @@
     width: 200px;
     border-style: solid;
     border-width: 10px;
-    border-color: white;
+    border-color: purple;
     border-radius: 90px;
     left: 0;
     bottom: 0;
   }
 
   .o .open {
-    background: white;
+    background: purple;
     height: 140px;
     width: 10px;
     position: absolute;
@@ -593,7 +603,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 90px;
     border-top-right-radius: 90px;
@@ -603,7 +613,7 @@
   }
 
   .p .open {
-    background: black;
+    background: purple;
     height: 75px;
     width: 10px;
     position: absolute;
@@ -612,7 +622,7 @@
   }
 
   .p .left {
-    background: black;
+    background: purple;
     height: 150px;
     width: 10px;
     position: absolute;
@@ -631,14 +641,14 @@
       width: 200px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 90px;
       left: 0;
       bottom: 0;
     }
 
     .q .open {
-      background: black;
+      background: purple;
       height: 140px;
       width: 10px;
       position: absolute;
@@ -647,7 +657,7 @@
     }
 
     .q .tail {
-      background: black;
+      background: purple;
       height: 50px;
       width: 10px;
       position: absolute;
@@ -666,7 +676,7 @@
         height: 90px;
         border-style: solid;
         border-width: 10px;
-        border-color: black;
+        border-color: purple;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 90px;
         border-top-right-radius: 90px;
@@ -676,7 +686,7 @@
       }
 
       .r .open {
-        background: black;
+        background: purple;
         height: 75px;
         width: 10px;
         position: absolute;
@@ -685,7 +695,7 @@
       }
 
       .r .left {
-        background: black;
+        background: purple;
         height: 150px;
         width: 10px;
         position: absolute;
@@ -694,7 +704,7 @@
       }
 
       .r .cross {
-        background: black;
+        background: purple;
       	height: 100px;
       	width: 10px;
       	position: absolute;
@@ -716,7 +726,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius:90px;
     border-right-color:transparent;
     border-bottom-right-radius:0px;
@@ -731,7 +741,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 60px;
     border-left-color:transparent;
     /*border-top-right-radius: 0px;*/
@@ -742,7 +752,7 @@
     position:absolute;
   }
   .s .open {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -751,7 +761,7 @@
   }
 
   .s .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -766,7 +776,7 @@
 }
 
   .t .top {
-    background: black;
+    background: purple;
     height: 10px;
     width: 200px;
     position: absolute;
@@ -775,7 +785,7 @@
   }
 
   .t .open {
-    background: black;
+    background: purple;
     height: 170px;
     width: 10px;
     position: absolute;
@@ -784,7 +794,7 @@
   }
 
   .t .middle {
-    background: black;
+    background: purple;
     height: 200px;
     width: 10px;
     position: absolute;
@@ -803,7 +813,7 @@
       width: 180px;
       border-style: solid;
       border-width: 10px;
-      border-color: white;
+      border-color: purple;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -813,7 +823,7 @@
     }
 
     .u .open {
-      background: white;
+      background: purple;
       height: 150px;
       width: 10px;
       position: absolute;
@@ -827,7 +837,7 @@
   height: 200px;
 }
     .v .cross2 {
-      background: black;
+      background: purple;
     	height: 100px;
     	width: 10px;
     	position: absolute;
@@ -839,7 +849,7 @@
     }
 
     .v .cross {
-      background: black;
+      background: purple;
     	height: 100px;
     	width: 10px;
     	position: absolute;
@@ -851,7 +861,7 @@
     }
 
     .v .left {
-      background: black;
+      background: purple;
       height: 100px;
       width: 10px;
       position: absolute;
@@ -860,7 +870,7 @@
     }
 
     .v .open {
-      background: black;
+      background: purple;
       height: 120px;
       width: 10px;
       position: absolute;
@@ -869,7 +879,7 @@
     }
 
     .v .right {
-      background: black;
+      background: purple;
       height: 100px;
       width: 10px;
       position: absolute;
@@ -888,7 +898,7 @@
       width: 75px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -903,7 +913,7 @@
       width: 75px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 90px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -914,7 +924,7 @@
     }
 
     .w .open {
-      background: black;
+      background: purple;
       height: 160px;
       width: 10px;
       position: absolute;
@@ -927,7 +937,7 @@
   height: 200px;
 }
         .x .cross2 {
-          background: black;
+          background: purple;
         	height: 280px;
         	width: 10px;
         	position: absolute;
@@ -939,7 +949,7 @@
         }
 
         .x .cross {
-          background: black;
+          background: purple;
         	height: 280px;
         	width: 10px;
         	position: absolute;
@@ -950,7 +960,7 @@
           top: -38px;
         }
         .x .cross3 {
-          background: black;
+          background: purple;
           height: 100px;
           width: 10px;
           position: absolute;
@@ -961,7 +971,7 @@
           top: 27px;
         }
         .x .cross4 {
-          background: black;
+          background: purple;
           height: 100px;
           width: 10px;
           position: absolute;
@@ -973,7 +983,7 @@
         }
 
         .x .open {
-          background: black;
+          background: purple;
           height: 25px;
           width: 10px;
           position: absolute;
@@ -982,7 +992,7 @@
         }
 
         .x .open2 {
-          background: black;
+          background: purple;
           height: 15px;
           width: 10px;
           position: absolute;
@@ -1005,7 +1015,7 @@
       right: 0;
       bottom: 0px;
       border-bottom-right-radius: 90px;
-      border-color:black;
+      border-color:purple;
       border-style:solid;
       border-top-color:transparent;
       border-left-color: transparent;
@@ -1018,7 +1028,7 @@
       width: 180px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 75px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -1029,7 +1039,7 @@
     }
 
     .y .open {
-      background: black;
+      background: purple;
       height: 60px;
       width: 10px;
       position: absolute;
@@ -1038,7 +1048,7 @@
     }
 
     .y .open2 {
-      background: black;
+      background: purple;
       height: 40px;
       width: 10px;
       position: absolute;
@@ -1053,7 +1063,7 @@
 }
 
 .z .top {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -1062,7 +1072,7 @@
 }
 
 .z .bottom {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -1071,7 +1081,7 @@
 }
 
 .z .open {
-  background: black;
+  background: purple;
   height: 110px;
   width: 10px;
   position: absolute;
@@ -1080,7 +1090,7 @@
 }
 
 .z .cross {
-  background: black;
+  background: purple;
   height: 200px;
   width: 10px;
   position: absolute;
@@ -1098,7 +1108,7 @@
 }
 
 .one .top {
-  background: black;
+  background: purple;
   height: 10px;
   width: 110px;
   position: absolute;
@@ -1107,7 +1117,7 @@
 }
 
 .one .bottom {
-  background: black;
+  background: purple;
   height: 10px;
   width: 200px;
   position: absolute;
@@ -1116,7 +1126,7 @@
 }
 
 .one .open {
-  background: black;
+  background: purple;
   height: 150px;
   width: 10px;
   position: absolute;
@@ -1125,7 +1135,7 @@
 }
 
 .one .center {
-  background: black;
+  background: purple;
   height: 160px;
   width: 10px;
   position: absolute;
@@ -1144,7 +1154,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius:90px;
     border-left-color:transparent;
     border-bottom-left-radius:0px;
@@ -1159,7 +1169,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 0px;
     border-right-color:transparent;
     border-top-color: transparent;
@@ -1170,7 +1180,7 @@
     position:absolute;
   }
   .two .open {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -1179,7 +1189,7 @@
   }
 
   .two .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1198,7 +1208,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius:90px;
     border-left-color:transparent;
     border-bottom-left-radius:0px;
@@ -1213,7 +1223,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 60px;
     border-left-color:transparent;
     /*border-top-right-radius: 0px;*/
@@ -1224,7 +1234,7 @@
     position:absolute;
   }
   .three .open {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -1233,7 +1243,7 @@
   }
 
   .three .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1247,7 +1257,7 @@
 }
 
     .four .right2 {
-      background: black;
+      background: purple;
       height: 200px;
       width: 10px;
       position: absolute;
@@ -1260,7 +1270,7 @@
       width: 180px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 75px;
       border-top-color:transparent;
       border-top-right-radius: 0px;
@@ -1271,7 +1281,7 @@
     }
 
     .four .open {
-      background: black;
+      background: purple;
       height: 60px;
       width: 10px;
       position: absolute;
@@ -1280,7 +1290,7 @@
     }
 
     .four .open2 {
-      background: black;
+      background: purple;
       height: 75px;
       width: 10px;
       position: absolute;
@@ -1299,7 +1309,7 @@
     height: 70px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius:90px;
     border-right-color:transparent;
     border-bottom-right-radius:0px;
@@ -1314,7 +1324,7 @@
     width: 175px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 0px;
     border-left-color:transparent;
     border-top-color: transparent;
@@ -1325,7 +1335,7 @@
     position:absolute;
   }
   .five .open {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -1334,7 +1344,7 @@
   }
 
   .five .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1347,7 +1357,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-bottom-left-radius: 0px;
@@ -1364,7 +1374,7 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 90px;
     border-top-right-radius: 90px;
@@ -1372,7 +1382,7 @@
     position: absolute;
   }
   .six .open {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -1381,7 +1391,7 @@
   }
 
   .six .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1396,7 +1406,7 @@
   }
 
   .seven .top {
-    background: black;
+    background: purple;
     height: 10px;
     width: 200px;
     position: absolute;
@@ -1405,7 +1415,7 @@
   }
 
   .seven .open {
-    background: black;
+    background: purple;
     height: 80px;
     width: 10px;
     position: absolute;
@@ -1414,7 +1424,7 @@
   }
 
   .seven .right {
-    background: black;
+    background: purple;
     height: 180px;
     width: 10px;
     position: absolute;
@@ -1428,7 +1438,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 90px;
     top: 0px;
     left: 12.5px;
@@ -1441,14 +1451,14 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-top-color: transparent;
     border-radius: 90px;
     bottom: 0;
     position: absolute;
   }
   .eight .open {
-    background: black;
+    background: purple;
     height: 70px;
     width: 10px;
     position: absolute;
@@ -1457,7 +1467,7 @@
   }
 
   .eight .open2 {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1471,7 +1481,7 @@
     height: 90px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 90px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -1486,7 +1496,7 @@
     height: 100px;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: purple;
     border-radius: 90px;
     border-left-color: transparent;
     border-top-color: transparent;
@@ -1495,7 +1505,7 @@
     position: absolute;
   }
   .nine .open {
-    background: black;
+    background: purple;
     height: 60px;
     width: 10px;
     position: absolute;
@@ -1504,7 +1514,7 @@
   }
 
   .nine .open2 {
-    background: black;
+    background: purple;
     height: 50px;
     width: 10px;
     position: absolute;
@@ -1523,14 +1533,14 @@
       width: 200px;
       border-style: solid;
       border-width: 10px;
-      border-color: black;
+      border-color: purple;
       border-radius: 45px;
       left: 0;
       bottom: 0;
     }
 
     .zero .open {
-      background: black;
+      background: purple;
       height: 140px;
       width: 10px;
       position: absolute;

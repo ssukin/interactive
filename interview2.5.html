@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Allen Hori Interview</title>
+	<link rel="stylesheet" href="normalize.css">
+	<style>
+
+		body {
+			background-image: url("PRA24.jpg");
+		}
+
+		@font-face {
+		    font-family: Berthold;
+		    src: url(Berthold/Berthold.otf);
+		}
+
+		div {
+		    font-family: Berthold;
+				font-size: 20px;
+				color: #FFF;
+				background-color: #FF4F00;
+		}
+
+		p.navigation {
+			bottom: 0;
+			position: fixed;
+			color: #000;
+			background-color: #FF4F00;
+		}
+
+		.container {
+			width:500px;
+			margin-left: 20px;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.imgWrap {
+			position: relative;
+			height: 150px;
+			width: 500px;
+		}
+		.imgDescription {
+			position: absolute;
+			top: 50px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			color: #FFF;
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		.imgWrap:hover .imgDescription {
+			visibility: visible;
+			opacity: 1;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<p class="navigation">
+			<a style="text-decoration: none; color: #FFF" href="interview3.html">next &nbsp</a>
+			<div class="imgWrap">
+				<p> what is your favorite font? </P>
+				<p class="imgDescription"> my go-to is berthold akzidenz grotesque.</p>
+			</div>
+		</p>
+	</div>
+
+<!-- <script>
+	$(function() {
+		  var body = $('body');
+		  // var backgrounds = ['url(b9.png)', 'url(b10.png)', 'url(b9.png)', 'url(b11.png)'];
+			var backgrounds = ['#FF4F00', '#EC008C'];
+		var current = 0;
+
+		function nextBackground() {
+		  body.css(
+		   'background',
+		    backgrounds[current = ++current % backgrounds.length]
+		 );
+
+		 setTimeout(nextBackground, 1000);
+		 }
+		 setTimeout(nextBackground, 1000);
+		   body.css('background', backgrounds[0]);
+	});
+</script> -->
+</body>
+</html>

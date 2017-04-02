@@ -8,7 +8,8 @@
 	<style>
 
 		body {
-			background: white;
+			background-image: url("PLA14.jpg");
+
 		}
 
 		.container {
@@ -43,10 +44,15 @@
 			color: #000;
 		}
 
+		h1 {
+			background-color: white;
+		}
+
 		.imgWrap {
 		  position: relative;
-		  height: 200px;
+		  height: 175px;
 		  width: 1000px;
+			background-color:white;
 		}
 		.imgDescription {
 		  position: absolute;
@@ -57,46 +63,47 @@
 		  color: #000;
 		  visibility: hidden;
 		  opacity: 0;
+			background-color:white;
 		}
 
 		.imgWrap:hover .imgDescription {
 		  visibility: visible;
 		  opacity: 1;
+			background-color:white;
+		}
+
+		.img{
+			float:left;
 		}
 
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script>
-	$(function(){
-	  $('a').click(function(){
-	      $('html, body').animate({
-	          scrollTop: $( $(this).attr('href') ).offset().top
-	      }, 500);
-	      return false;
-	  });
-	});
-	</script>
 </head>
 
 <body>
 	<div class="container">
-		<p class="navigation">
-			<a style="text-decoration: none; color: #000" href="interview2.html">first things first</a>
-		</p>
 
-		<h1>
-			<a href="http://www.bateshori.com/Studio">Allen Hori</a></h1>
+<h1>how did you make the decision to start bates hori? </h1>
 		<div class="imgWrap">
 	  <img src="drop.png" alt="polaroid" />
 		  <p class="imgDescription">
-
-				Mr. Hori received a B.F.A. in photography from the University of Hawaii and earned an M.F.A. in design from Cranbrook Academy of Art, after which he received a Fulbright Grant to study in the Netherlands.
-				Allen is principal at Bates Hori, New York, a graphic design and visual research studio. His experience covers a diverse range of clients from corporate, fashion, music, culture, art and publishing industries.
-				Allen is on the graduate faculty in Graphic Design at Yale University School of Art and a past Frank Stanton Chair in Graphic Design at The Cooper Union School of Art.
-
+ever since cranbrook, it was always an imperative to create for myself a similar kind of environment in which to do work.
+spending a few years in corporate design positions and branding agencies proved a bit too frustrating for anything long-term, which fueled even more the need to create bates hori,
+ and now a fertile partnership with cal arts's weston bingham in our practice called open project.
 			</p>
-		</div>
+			<p style="font-size:30px">
+			 &nbsp . <br>  &nbsp .
+		</p>
 
+	  <img src="CON31.jpg"/>
+		<img src="SYN01.jpg"/>
+		 <img src="SYN11.jpg"/>
+	<img src="SYN12.jpg"/>
+
+
+			 <p class="navigation">
+		 		<a style="text-decoration: none; color: #000; background-color:white" href="interview5.html">next &nbsp</a>
+		 	</p>
 
 	</div>
 </body>

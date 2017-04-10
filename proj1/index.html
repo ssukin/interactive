@@ -2,15 +2,17 @@
 <html>
 
 <head>
-    <title>Artist's Website</title>
+    <title>Visual Translation Archive</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="normalize.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="openface.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
-
     body {
       background: #F3D5CE;
-        margin-left:70px;
-        margin-top:50px;
+      margin-left:70px;
+      margin-right:auto;
+      margin-top:100px;
     }
 
     @font-face {
@@ -35,6 +37,9 @@
 
     ol{
       color:white;
+      margin-left:-50px;
+      float:left;
+      position:relative;
     }
 
     ol:hover {
@@ -55,17 +60,46 @@
       color:black;
       position:absolute;
       z-index:-100;
-
     }
-
+    .org {
+      float: left;
+    }
+    .bord{
+      border-style:solid;
+      border-width:10px;
+      border-radius:0px;
+      boder-color:white;
+    }
     </style>
-</head>
 
-<body>
-
-  <h1>in progress</h1>
-
-  <div class="tester"> x <br> x <br> x <br> x</div>
+  <body>
+    <div class="bord">
+    <div class="org">
+  		<div class="letter o">
+  			<div class="top"></div>
+  			<div class="open"></div>
+  		</div>
+      <div class="letter p">
+      	<div class="left"></div>
+      	<div class="top"></div>
+      	<div class="open"></div>
+      </div>
+    </div>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <!-- <br><br><br> -->
+        <div class="org">
+  		<div class="letter e">
+  			<div class="cross"></div>
+  			<div class="open"></div>
+  		</div>
+      <div class="letter n">
+      	<div class="open"></div>
+      	<div class="left"></div>
+      	<div class="right"></div>
+      	<div class="cross"></div>
+      </div>
+    </div>
+  </div>
 
 </body>
 

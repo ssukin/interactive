@@ -1,0 +1,1549 @@
+.letter {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+#div1.active{background:blue;}
+#div2.active{background:purple;}
+#div3.active{background:red;}
+#div4.active{background:blue;}
+#div5.active{background:purple;}
+#div6.active{background:red;}
+#div7.active{background:blue;}
+#div8.active{background:purple;}
+#div9.active{background:red;}
+
+.a .top {
+  height: 180px;
+  width: 200px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-bottom-color: transparent;
+  border-top-right-radius: 90px;
+  border-top-left-radius: 90px;
+  border-left-color: purple;
+  border-right-color:purple;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.a .open {
+  background: purple;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+}
+
+.a .cross {
+  background: purple;
+  height: 10px;
+  width: 120px;
+  left: 70px;
+  top: 100px;
+  position: absolute;
+}
+
+.b .top {
+  display:block;
+  width: 175px;
+  height: 90px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  border-top-left-radius: 90px;
+  top: 0px;
+  position: absolute;
+}
+
+.b .bottom {
+  display:block;
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-top-color: transparent;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  /*top: 100px;*/
+  bottom: 0;
+  position: absolute;
+}
+.b .open {
+  background: purple;
+  height: 70px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+.b .open2 {
+  background: purple;
+  height: 60px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.c {
+  display:block;
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-right-color: transparent;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+}
+
+.c .open {
+  background: purple;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.d {
+  display:block;
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.d .open {
+  background: purple;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.e {
+  display:block;
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-right-color: transparent;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+}
+
+.e .cross {
+  background: purple;
+  height: 10px;
+  width: 120px;
+  left: 70px;
+  top: 100px;
+  position: absolute;
+}
+
+.e .open {
+  background: purple;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.f {
+  display:block;
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-left-radius: 90px;
+}
+
+.f .cross {
+  background: purple;
+  height: 10px;
+  width: 120px;
+  left: 70px;
+  top: 100px;
+  position: absolute;
+}
+
+.f .open {
+  background: purple;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+}
+
+.g {
+  display:block;
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-right-color: transparent;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+}
+
+.g .open {
+  background: purple;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.g .cross {
+  background: purple;
+  height: 10px;
+  width: 80px;
+  right: 20px;
+  top: 100px;
+  position: absolute;
+}
+
+.g .right {
+  background: purple;
+  height: 100px;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.h {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.h .right {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.h .left {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+/*.h .open {
+  background: purple;
+  height: 180px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+}
+
+.h .cross {
+  background: purple;
+  height: 10px;
+  width: 180px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}*/
+
+.h .open {
+  background: purple;
+  height: 170px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+
+.h .cross {
+  background: purple;
+  height: 10px;
+  width: 100px;
+  left: 70px;
+  top: 100px;
+  position: absolute;
+}
+
+.i {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.i .top {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.i .bottom {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.i .open {
+  background: purple;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.i .center {
+  background: purple;
+  height: 160px;
+  width: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+
+.j {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.j .top {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.j .open {
+  background: purple;
+  height: 140px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+
+.j .leg {
+  height: 180px;
+  width: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: purple;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-right-radius: 90px;
+  /*border-left-color: purple;
+  border-right-color:purple;*/
+  left: 100px;
+  top: 0;
+}
+
+.k {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.k .left {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.k .open {
+  background: purple;
+  height: 170px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+
+.k .cross {
+  background: purple;
+	height: 150px;
+	width: 10px;
+	position: absolute;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+  right: 70px;
+  top: 65px;
+}
+
+.k .cross2 {
+  background: purple;
+	height: 125px;
+	width: 10px;
+	position: absolute;
+	-ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  right: 77px;
+  bottom: 90px;
+}
+
+.l {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.l .bottom {
+  background: purple;
+  height: 10px;
+  width: 170px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.l .open {
+  background: purple;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.l .left {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+
+.m {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.m .cross2 {
+  background: purple;
+	height: 100px;
+	width: 10px;
+	position: absolute;
+	-ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  right: 62.5px;
+  bottom: 100px;
+}
+
+.m .cross {
+  background: purple;
+	height: 100px;
+	width: 10px;
+	position: absolute;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+  left: 62.5px;
+  bottom: 100px;
+}
+
+.m .left {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.m .open {
+  background: purple;
+  height: 120px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+
+.m .right {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.n {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.n .left {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.n .open {
+  background: purple;
+  height: 120px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+
+.n .cross {
+  background: purple;
+	height: 190px;
+	width: 10px;
+	position: absolute;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+  right: 100px;
+  top: -10px;
+}
+
+.n .right {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+
+.o {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+  .o .top {
+    height: 180px;
+    width: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 90px;
+    left: 0;
+    bottom: 0;
+  }
+
+  .o .open {
+    background: purple;
+    height: 140px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+  }
+
+.p {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+  .p .top {
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+    top: 0px;
+    position: absolute;
+  }
+
+  .p .open {
+    background: purple;
+    height: 75px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+  }
+
+  .p .left {
+    background: purple;
+    height: 150px;
+    width: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+  }
+
+.q {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .q .top {
+      height: 180px;
+      width: 200px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 90px;
+      left: 0;
+      bottom: 0;
+    }
+
+    .q .open {
+      background: purple;
+      height: 140px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+    .q .tail {
+      background: purple;
+      height: 50px;
+      width: 10px;
+      position: absolute;
+      right: 25px;
+      bottom: 0;
+    }
+
+.r {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+      .r .top {
+        width: 175px;
+        height: 90px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: purple;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 90px;
+        border-top-right-radius: 90px;
+        border-top-left-radius: 90px;
+        top: 0px;
+        position: absolute;
+      }
+
+      .r .open {
+        background: purple;
+        height: 75px;
+        width: 10px;
+        position: absolute;
+        left: 50px;
+        bottom: 0;
+      }
+
+      .r .left {
+        background: purple;
+        height: 150px;
+        width: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+      }
+
+      .r .cross {
+        background: purple;
+      	height: 100px;
+      	width: 10px;
+      	position: absolute;
+      	-ms-transform: rotate(-45deg); /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+        transform: rotate(-45deg);
+        right: 85px;
+        top: 113.5px;
+      }
+
+.s {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .s .top {
+    display:block;
+    width: 130px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius:90px;
+    border-right-color:transparent;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    /*border-bottom-width: 180px;*/
+    top: 0px;
+    position: absolute;
+  }
+
+  .s .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 60px;
+    border-left-color:transparent;
+    /*border-top-right-radius: 0px;*/
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+  }
+  .s .open {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .s .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+.t {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+  .t .top {
+    background: purple;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+
+  .t .open {
+    background: purple;
+    height: 170px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+  }
+
+  .t .middle {
+    background: purple;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+  }
+
+.u {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .u .top {
+      height: 180px;
+      width: 180px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 90px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      left: 0;
+      bottom: 0;
+    }
+
+    .u .open {
+      background: purple;
+      height: 150px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 40px;
+    }
+
+.v {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+    .v .cross2 {
+      background: purple;
+    	height: 100px;
+    	width: 10px;
+    	position: absolute;
+    	-ms-transform: rotate(45deg); /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      right: 50px;
+      top: 100px;
+    }
+
+    .v .cross {
+      background: purple;
+    	height: 100px;
+    	width: 10px;
+    	position: absolute;
+    	-ms-transform: rotate(-45deg); /* IE 9 */
+      -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+      transform: rotate(-45deg);
+      left: 50px;
+      top: 100px;
+    }
+
+    .v .left {
+      background: purple;
+      height: 100px;
+      width: 10px;
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+
+    .v .open {
+      background: purple;
+      height: 120px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 80px;
+    }
+
+    .v .right {
+      background: purple;
+      height: 100px;
+      width: 10px;
+      position: absolute;
+      right: 0;
+      top: 0px;
+    }
+
+.w {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .w .left {
+      height: 180px;
+      width: 75px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 90px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      left: 0;
+      bottom: 0;
+      position:absolute;
+    }
+
+    .w .right {
+      height: 180px;
+      width: 75px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 90px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      right: 0px;
+      bottom: 0;
+      position:absolute;
+    }
+
+    .w .open {
+      background: purple;
+      height: 160px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+    }
+.x {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+        .x .cross2 {
+          background: purple;
+        	height: 280px;
+        	width: 10px;
+        	position: absolute;
+        	-ms-transform: rotate(45deg); /* IE 9 */
+          -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+          transform: rotate(45deg);
+          right: 78px;
+          top: -38px;
+        }
+
+        .x .cross {
+          background: purple;
+        	height: 280px;
+        	width: 10px;
+        	position: absolute;
+        	-ms-transform: rotate(-45deg); /* IE 9 */
+          -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+          transform: rotate(-45deg);
+          left: 100px;
+          top: -38px;
+        }
+        .x .cross3 {
+          background: purple;
+          height: 100px;
+          width: 10px;
+          position: absolute;
+          -ms-transform: rotate(-45deg); /* IE 9 */
+          -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+          transform: rotate(-45deg);
+          left: 40px;
+          top: 27px;
+        }
+        .x .cross4 {
+          background: purple;
+          height: 100px;
+          width: 10px;
+          position: absolute;
+          -ms-transform: rotate(45deg); /* IE 9 */
+          -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+          transform: rotate(45deg);
+          left: 40px;
+          top: 92px;
+        }
+
+        .x .open {
+          background: purple;
+          height: 25px;
+          width: 10px;
+          position: absolute;
+          left: 50px;
+          top: 0px;
+        }
+
+        .x .open2 {
+          background: purple;
+          height: 15px;
+          width: 10px;
+          position: absolute;
+          left: 50px;
+          bottom: -5px;
+        }
+
+
+.y {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .y .right2 {
+      height: 180px;
+      width: 180px;
+      border-width:10px;
+      position: absolute;
+      right: 0;
+      bottom: 0px;
+      border-bottom-right-radius: 90px;
+      border-color:purple;
+      border-style:solid;
+      border-top-color:transparent;
+      border-left-color: transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+    }
+
+    .y .right {
+      height: 70px;
+      width: 180px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 75px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      right: 0px;
+      top: 0;
+      position:absolute;
+    }
+
+    .y .open {
+      background: purple;
+      height: 60px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      top: 0px;
+    }
+
+    .y .open2 {
+      background: purple;
+      height: 40px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 20px;
+    }
+
+.z {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.z .top {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.z .bottom {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.z .open {
+  background: purple;
+  height: 110px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 70px;
+}
+
+.z .cross {
+  background: purple;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  left: 100px;
+  top: 5px;
+}
+
+.one {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+.one .top {
+  background: purple;
+  height: 10px;
+  width: 110px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+.one .bottom {
+  background: purple;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.one .open {
+  background: purple;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.one .center {
+  background: purple;
+  height: 160px;
+  width: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+
+.two {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .two .top {
+    display:block;
+    width: 130px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius:90px;
+    border-left-color:transparent;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    /*border-bottom-width: 180px;*/
+    top: 0px;
+    position: absolute;
+  }
+
+  .two .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 0px;
+    border-right-color:transparent;
+    border-top-color: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+  }
+  .two .open {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .two .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+.three {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .three .top {
+    display:block;
+    width: 130px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius:90px;
+    border-left-color:transparent;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    /*border-bottom-width: 180px;*/
+    top: 0px;
+    position: absolute;
+  }
+
+  .three .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 60px;
+    border-left-color:transparent;
+    /*border-top-right-radius: 0px;*/
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+  }
+  .three .open {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .three .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+.four {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+
+    .four .right2 {
+      background: purple;
+      height: 200px;
+      width: 10px;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+
+    .four .right {
+      height: 70px;
+      width: 180px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 75px;
+      border-top-color:transparent;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      right: 0px;
+      top: 0;
+      position:absolute;
+    }
+
+    .four .open {
+      background: purple;
+      height: 60px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      top: 0px;
+    }
+
+    .four .open2 {
+      background: purple;
+      height: 75px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 0px;
+    }
+
+.five {
+  display:block;
+  width: 200px;
+  height: 200px;
+}
+  .five .top {
+    display:block;
+    width: 175px;
+    height: 70px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius:90px;
+    border-right-color:transparent;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    top: 0px;
+    right:0px;
+    position: absolute;
+  }
+
+  .five .bottom {
+    height: 80px;
+    width: 175px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 0px;
+    border-left-color:transparent;
+    border-top-color: transparent;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    right: 0px;
+    bottom: 0;
+    position:absolute;
+  }
+  .five .open {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .five .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+  .six .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+    top: 0px;
+    position: absolute;
+  }
+
+  .six .bottom {
+    display:block;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    bottom: 0;
+    position: absolute;
+  }
+  .six .open {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .six .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .seven {
+    display:block;
+    width: 200px;
+    height: 200px;
+  }
+
+  .seven .top {
+    background: purple;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+
+  .seven .open {
+    background: purple;
+    height: 80px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+  }
+
+  .seven .right {
+    background: purple;
+    height: 180px;
+    width: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .eight .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 90px;
+    top: 0px;
+    left: 12.5px;
+    position: absolute;
+  }
+
+  .eight .bottom {
+    display:block;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-top-color: transparent;
+    border-radius: 90px;
+    bottom: 0;
+    position: absolute;
+  }
+  .eight .open {
+    background: purple;
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .eight .open2 {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .nine .top {
+    display:block;
+    width: 175px;
+    height: 90px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 90px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .nine .bottom {
+    display:block;
+    width: 180px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: purple;
+    border-radius: 90px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-top-right-radius: 0px;
+    bottom: 0;
+    position: absolute;
+  }
+  .nine .open {
+    background: purple;
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
+  .nine .open2 {
+    background: purple;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .zero {
+    display:block;
+    width: 200px;
+    height: 200px;
+  }
+
+    .zero .top {
+      height: 180px;
+      width: 200px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: purple;
+      border-radius: 45px;
+      left: 0;
+      bottom: 0;
+    }
+
+    .zero .open {
+      background: purple;
+      height: 140px;
+      width: 10px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }

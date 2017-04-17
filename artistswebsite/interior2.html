@@ -114,58 +114,42 @@
     img:hover {
         box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     }
+/*
+    body,html{padding:0; margin:0;height:100%;width:100%;}
 
-    .flex-container {
+    /*.flex-container {
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-content: space-between;
     align-items: flex-start;
-}
+}*/
 
 
-.flex-items-default {
-    width: 25%;
-    height: 25%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 0;
+/*.flex-items-default {
+  width: 100%;
+  height: 25%;
+  float: left;
 }
 
  .flex-item-1 {
-    width: <property unused>
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
+background-color:purple;
 }
 
  .flex-item-2 {
-    width: <property unused>
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
-    background-color:beige;
+
 }
 
  .flex-item-3 {
-    width: <property unused>
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
+   background-color:purple;
+
+
 }
 
  .flex-item-4 {
-    width: <property unused>
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
-    background-color:beige;
-}
+
+}*/
 
 
     </style>
@@ -206,7 +190,14 @@
 </div>
 <div class="flex-item-4">
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+var height = $(document).height();
+var menu_height = $("#menu").height();
+var content_height = height - menu_height;
 
+$(".content").css("height", content_height);
+$(".content").css("top", menu_height);
+</script>
 </body>
 
 </html>

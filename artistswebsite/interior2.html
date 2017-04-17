@@ -115,25 +115,75 @@
         box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     }
 
-    
+    .flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+
+.flex-items-default {
+    width: 25%;
+    height: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+ .flex-item-1 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+ .flex-item-2 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color:beige;
+}
+
+ .flex-item-3 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+ .flex-item-4 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color:beige;
+}
+
 
     </style>
 </head>
 
 <body>
-  <!-- <div class="flex-item-1"> -->
+  <div class="flex-item-1">
 
   <h1><a href="nendo.html">nendo</a></h1>
 <br><br><br>
-  <!-- <div class="tester"> x <br> x <br> x <br> x <br> </div> -->
   <h3 class="special"><a href="interior.html">interior</a></h3>
   <br><br><h3>graphic</h3>
   <br><br><h3>product</h3>
   <br><br><h3>architecture</h3>
   <br><br><h3>furniture</h3>
   <p class="tester"></p>
-<!-- </div> -->
-<!-- <div class="flex-item-2"> -->
+</div>
+<div class="flex-item-2">
   <figure>
   <a target="_blank" href="image/camper.jpg" style="margin-left: 220px; margin-top:-135px; z-index: 5px;">
     <img src="images/camper.jpg" alt="Camper" style="width:150px">
@@ -151,10 +201,11 @@
       <!-- <figcaption style="margin-left: 225px; font-size: 75%"></figcaption> -->
     </a>
   </figure>
-  <!-- <img src="images/camper2.jpg" alt="Camper2" style="width:150px; margin-left: 220px; margin-top:-135px; z-index: -5px;">
-</figure>
-  <img src="images/camper3.jpg" alt="Camper3" style="width:150px; margin-left: 220px; margin-top:-135px; z-index: -5px;"> -->
-
+</div>
+<div class="flex-item-3">
+</div>
+<div class="flex-item-4">
+</div>
 
 </body>
 

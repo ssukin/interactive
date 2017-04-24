@@ -4,16 +4,18 @@
 <head>
     <title>Visual Translation Archive</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="normalize.css">
-    <style>
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="openface.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <style>
     body {
       background: #F3D5CE;
-      width:700px;
-        /*margin-left:auto;
-        margin-right-auto;*/
-        margin-left:70px;
-        margin-top:50px;
+      /*margin-left:70px;*/
+      width:520px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:100px;
     }
 
     @font-face {
@@ -29,18 +31,23 @@
 
     a{
       color:white;
+      text-decoration:none;
     }
 
     a:hover {
       color:darkMagenta;
+      text-decoration:none;
     }
 
 
     ol{
       color:white;
-      margin-left:-50px;
+      margin-left:-150px;
+      margin-top:0px;
       float:left;
       position:relative;
+      font-family: Berthold;
+      font-size: 20px;
     }
 
     ol:hover {
@@ -49,6 +56,8 @@
 
     h1, h2, h3 {
       color:white;
+      font-family: Berthold;
+      src: url(Berthold/Berthold.otf);
     }
 
     h1:hover, h2:hover, h3:hover {
@@ -61,28 +70,50 @@
       color:black;
       position:absolute;
       z-index:-100;
-
+    }
+    .org {
+      float: left;
+      padding-left:20px;
+    }
+    .bord{
+      border-style:solid;
+      border-width:10px;
+      border-radius:0px;
+      boder-color:white;
+      width:500px;
+      height:500px;
     }
 
+    .bord:hover{
+      color:white;
+    }
+
+    img{
+      position:relative;
+    }
     </style>
-</head>
 
-<body>
+  <body>
+    <ol>
+      <li><a href="p1.html">red</li>
+      <li><a href="p7.html">orange</li>
+      <li><a href="p9.html">yellow</li>
+      <li><a href="">white</li>
+      <li><a href="p14.html">green</li>
+      <li><a href="">blue</li>
+      <li><a href="">purple</li>
+      <li><a href="">black</li>
+      <li><a href="">brown</li>
+    </ol>
+    <div class="bord">
+      <a href="p2.html">
+          <img id="image0" src="images/day62 copy.png" width="500" height="500" />
+      </a>
+    </div>
+    <h3>Visual Translation Archive by Sarah Sukin&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1/60</h3>
 
-  <!-- <h1>Visual Translation Archive</h1> -->
-
-  <!-- <div class="tester"> x <br> x <br> x <br> x</div> -->
-  <ol>
-    <li><a href="">red</li>
-    <li><a href="">orange</li>
-    <li><a href="">yellow</li>
-    <li><a href="">white</li>
-    <li><a href="">green</li>
-    <li><a href="">blue</li>
-    <li><a href="">purple</li>
-    <li><a href="">black</li>
-    <li><a href="">brown</li>
-  </ol>
 </body>
 
 </html>

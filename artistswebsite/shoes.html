@@ -55,7 +55,7 @@
       float:right;
       width: 450px;
       margin-right:40px;
-      margin-top:-655px;
+      /*margin-top:-655px;*/
     }
 
     figure{
@@ -70,10 +70,14 @@
     }
 
     p{
+      position:fixed;
       width:220px;
       margin-left:20px;
-      margin-top:50px;
+      margin-top:170px;
       line-height:30px;
+    }
+    .hdr{
+      position:fixed;
     }
 
     @media screen and (max-width: 700px) {
@@ -86,6 +90,7 @@
         margin-top:-90px
       }
       p{
+        position:relative;
         float:right;
         line-height:20px;
         width: 420px;
@@ -96,6 +101,9 @@
       .tester{
         margin-left:0px;
         margin-top:0px;
+      }
+      .hdr{
+        position:relative;
       }
     }
 
@@ -110,6 +118,7 @@
         margin-top:-90px
       }
       p{
+        position:relative;
         float:right;
         line-height:20px;
         width: 420px;
@@ -120,15 +129,18 @@
         margin-left:0px;
         margin-top:0px;
       }
-
+      .hdr{
+        position:relative;
+      }
     }
     </style>
 </head>
 
 <body>
-
+<div class="hdr">
   <h1><a href="f3.html">nendo</a></h1><br><br><br><br><br><br><br>
   <h3>marker-shoes</h3>
+</div>
   <p>Leather shoes whose patterns are drawn directly onto calfskin with markers.
     Unlike dye or paint, the soft, fine calfskin absorbs the marker ink in moderation,
     for a finish as transparent and limpid as watercolour,

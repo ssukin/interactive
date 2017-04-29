@@ -5,6 +5,7 @@
     <title>block memo</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="normalize.css">
+
     <style>
 
     body {
@@ -12,7 +13,7 @@
         margin-top:20px;
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
-        /*background-image: url("i2/memo block/m7.jpg");*/
+        /*background-image: url("i2/marker shoes/s11.jpg");*/
     }
 
     h1{
@@ -54,7 +55,7 @@
       float:right;
       width: 450px;
       margin-right:40px;
-      margin-top:-655px;
+      /*margin-top:-655px;*/
     }
 
     figure{
@@ -69,16 +70,17 @@
     }
 
     p{
+      position:fixed;
       width:220px;
       margin-left:20px;
-      margin-top:50px;
+      margin-top:170px;
       line-height:30px;
+    }
+    .hdr{
+      position:fixed;
     }
 
     @media screen and (max-width: 700px) {
-      body{
-        background:white;
-      }
       h1{
         margin-left:150px;
         letter-spacing:10px;
@@ -88,6 +90,7 @@
         margin-top:-90px
       }
       p{
+        position:relative;
         float:right;
         line-height:20px;
         width: 420px;
@@ -98,6 +101,9 @@
       .tester{
         margin-left:0px;
         margin-top:0px;
+      }
+      .hdr{
+        position:relative;
       }
     }
 
@@ -112,6 +118,7 @@
         margin-top:-90px
       }
       p{
+        position:relative;
         float:right;
         line-height:20px;
         width: 420px;
@@ -122,20 +129,23 @@
         margin-left:0px;
         margin-top:0px;
       }
-
+      .hdr{
+        position:relative;
+      }
     }
     </style>
 </head>
 
 <body>
-
+<div class="hdr">
   <h1><a href="f3.html">nendo</a></h1><br><br><br><br><br><br><br>
   <h3>block memo</h3>
-  <p>Three different shape sticky notes, which have been unified into a singular shape comprised of a square,
-    a large rectangle and a small rectangle. It consists of a form of a cube with one of the corners cut off,
-    and these sticky notes can be peeled off as it stands in a slanted position.
-    This has facilitated the use of these notes in assorted sizes for people to use for various purposes,
-    such as using them as memos, as bookmarks and so forth.</p>
+</div>
+<p>Three different shape sticky notes, which have been unified into a singular shape comprised of a square,
+  a large rectangle and a small rectangle. It consists of a form of a cube with one of the corners cut off,
+  and these sticky notes can be peeled off as it stands in a slanted position.
+  This has facilitated the use of these notes in assorted sizes for people to use for various purposes,
+  such as using them as memos, as bookmarks and so forth.</p>
   <div class="tester">
     <figure>
       <img src="i2/memo block/m1.jpg" alt="memo1" style="width:410px;height:273px;">
@@ -165,6 +175,7 @@
       <img src="i2/memo block/m8.jpg" alt="memo1" style="width:410px;height:273px;">
       <figcaption>message</figcaption>
     </figure>
+  </div>
   </div>
 </body>
 

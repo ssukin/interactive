@@ -9,65 +9,155 @@
 
     body {
         margin-left:0px;
-        margin-top:60px;
-        float: left;
+        margin-top:20px;
         position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+       /*display: inline-block;
+       list-style-type: none;*/
     }
 
     h1{
       color:black;
-       /*font-family: Arial, Helvetica, sans-serif;*/
-      /*display: inline-block;*/
-      /*list-style-type: none;*/
       margin: 0;
-      font-family: Bookman, serif;
-			line-height: 2;
-			letter-spacing: 30px;
-			font-size: 400%;
-			width: 100px;
-      display:inline;
       position: relative;
       float:left;
-      margin-top:200px;
-
-      /*padding: 0em .5em 1.5em;*/
+      margin-left:20px;
+      letter-spacing:30px;
+      z-index:40px;
     }
 
-    h1.special{
-      position:fixed;
+    h3{
       color:black;
-       /*font-family: Arial, Helvetica, sans-serif;*/
-      /*display: inline-block;*/
-      /*list-style-type: none;*/
       margin: 0;
-      font-family: Bookman, serif;
-      line-height: 2;
-      letter-spacing: 10px;
-      font-size: 130%;
-      width: 100px;
-      /*padding: 0em .5em 1.5em;*/
+      position: relative;
+      float:left;
+      margin-left:20px;
+      letter-spacing:6px;
+      z-index:40px;
     }
 
     img{
       position:relative;
+      /*z-index:-20px;*/
     }
+
     a{
       text-decoration: none;
       color:black;
       z-index= 200px;
     }
 
+    .tester{
+      float:right;
+      display: inline-block;
+      /*margin-left:273px;*/
+      margin-top:-20px;
+    }
+
+    figure{
+      width:410px;
+    }
+
+    figure:hover{
+      background-color:black;
+    }
+
+    /*.t{
+      margin-left:0px;
+      float:left;
+      width:200px;
+      height:400px;
+      color:tan;
+    }*/
+
+    /*@media screen and (min-width: 700px) {
+      .test2{
+        width:200px;
+        height:400px;
+        color:tan;
+      }
+    }*/
+
+    @media screen and (max-width: 700px) {
+      h1{
+        margin-left:150px;
+        letter-spacing:10px;
+      }
+      h3{
+        margin-left:150px;
+      }
+      .tester{
+        margin-left:0px;
+        margin-top:20px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+
+      h1{
+        margin-left:150px;
+        letter-spacing:10px;
+      }
+      .tester{
+        margin-left:0px;
+        margin-top:20px;
+      }
+
+    }
     </style>
 </head>
 
 <body>
-    <h1 class="special"><a href="nendo.html">nendo</a></h1>
-  <img src="images/Siam.jpg" alt="Siam" style="width:800px;height:533px;">
-  <h1>
-    <a style="text-decoration: none; display:inline; margin-left: 465px;" href="n2.html">&#8594;</a>
-  </h1>
 
+  <h1><a href="f3.html">nendo</a></h1><br><br>
+  <h3>product design</a></h3>
+  <div class="tester">
+    <figure>
+    <img src="i2/memo block/block-memo01_akihiro_yoshida.jpg" alt="memo1" style="width:410px;height:273px;">
+    <figcaption>block memo &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp01.2016</figcaption>
+  </figure>
+      <figure>
+    <img src="i2/marker shoes/m1.jpg" alt="memo1" style="width:410px;height:273px;">
+    <figcaption>marker-shoes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp03.2015</figcaption>
+  </figure>
+  <figure>
+  <img src="i2/suitcase/a1.jpg" alt="memo1" style="width:410px;height:273px;">
+  <figcaption>proteca&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp11.2015</figcaption>
+</figure>
+  <figure>
+    <img src="i2/chocolate texture/c1.jpg" alt="memo1" style="width:410px;height:273px;">
+    <figcaption>chocolatexture&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp01.2015</figcaption>
+  </figure>
+  <figure>
+    <img src="i2/chocolate paint/c1.png" alt="memo1" style="width:410px;height:273px;">
+    <figcaption>chocolate-paint&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp10.2013</figcaption>
+  </figure>
 
+    <figure>
+    <img src="i2/heads or tails/h1.jpg" alt="memo1" style="width:410px;height:273px;">
+    <figcaption>heads or tails&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp10.2013</figcaption>
+  </figure>
+
+  </div>
 </body>
 
 </html>

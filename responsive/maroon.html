@@ -5,27 +5,22 @@
 	<title>Responsive Website</title>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="responsive.css"> -->
   <style>
 
-  div {
-    background-color: white;
-  }
+	body {
+		background-color: #800032;
+	}
 
   .im1 {
-    width:942px;
-    height:631px;
-    background-image: url("img8.png");
-    /*width:1135px;
+    width:1135px;
     height:1260px;
-    background-image: url("img3.png");*/
+    background-image: url("img3.png");
     float: left;
     background-repeat: no-repeat;
   }
 
   nav {
     float: left;
-    /*border-bottom: 1px solid black;*/
     font-family: "arial"; font-weight: regular;
   }
 
@@ -45,26 +40,27 @@
 
   li.special {
     padding: 5px;
-    background: black;
-    color: white;
+    background: white;
+    color: #800032;;
   }
 
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
 
   a:hover {
-    background: black;
-    color: white;
+    background: white;
+    color: #800032;;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 420px) {
     .im1 {
-      width:942px;
-      height:631px;
-      background-image: url("img8.png");
+      width:314px;
+      height:421px;
+      background-image: url("img5.png");
     }
+
   }
 
   @media screen and (max-width: 600px) {
@@ -79,29 +75,17 @@
 
     li {
       display: inline-block;
-      /*float:left;*/
       padding: 0.5em;
     }
 
     li.special {
       display: block;
       padding: 5px;
-      background: black;
-      color: white;
     }
-
     .im1 {
       width:561px;
       height:377px;
       background-image: url("img7.png");
-    }
-  }
-
-  @media screen and (max-width: 420px) {
-    .im1 {
-      width:314px;
-      height:421px;
-      background-image: url("img5.png");
     }
   }
 
@@ -113,23 +97,17 @@
     }
   }
 
-
-
 	</style>
 </head>
-
-<nav>
-  <ul>
-    <li class="special">SARAH SUKIN</li>
-    <li><a href="maroon.html">favorite color</a></li>
-    <li><a href="#">graphic design</a></li>
-    <li><a href="#">marketing</a></li>
-    <li><a href="#">contact</a></li>
-  </ul>
-</nav>
-<div>
-  <p class="im1"></p>
-</div>
-
+<body>
+	<nav>
+	  <ul>
+	    <li class="special"><a href="responsive.html">SARAH SUKIN</a></li>
+	    <li><a href="maroon.html">favorite color</a></li>
+	    <li><a href="#">graphic design</a></li>
+	    <li><a href="#">marketing</a></li>
+	    <li><a href="#">contact</a></li>
+	  </ul>
+	</nav>
 </body>
 </html>

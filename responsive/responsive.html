@@ -5,27 +5,22 @@
 	<title>Responsive Website</title>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="responsive.css"> -->
   <style>
 
   div {
+    background-color: white;
   }
-	body {
-		background-color: #800032;
-	}
 
   .im1 {
-    width:1135px;
-    height:1260px;
-    background-image: url("img3.png");
-    /*position:relative;*/
+    width:942px;
+    height:631px;
+    background-image: url("images/img8.png");
     float: left;
     background-repeat: no-repeat;
   }
 
   nav {
     float: left;
-    /*border-bottom: 1px solid black;*/
     font-family: "arial"; font-weight: regular;
   }
 
@@ -45,27 +40,26 @@
 
   li.special {
     padding: 5px;
-    background: white;
-    color: #800032;;
+    background: black;
+    color: white;
   }
 
   a {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 
   a:hover {
-    background: white;
-    color: #800032;;
+    background: black;
+    color: white;
   }
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 768px) {
     .im1 {
-      width:314px;
-      height:421px;
-      background-image: url("img5.png");
+      width:942px;
+      height:631px;
+      background-image: url("images/img8.png");
     }
-
   }
 
   @media screen and (max-width: 600px) {
@@ -87,11 +81,22 @@
     li.special {
       display: block;
       padding: 5px;
+      background: black;
+      color: white;
     }
+
     .im1 {
       width:561px;
       height:377px;
-      background-image: url("img7.png");
+      background-image: url("images/img7.png");
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .im1 {
+      width:314px;
+      height:421px;
+      background-image: url("images/img5.png");
     }
   }
 
@@ -99,25 +104,24 @@
     .im1 {
       width:311px;
       height:421px;
-      background-image: url("img4.png");
+      background-image: url("images/img4.png");
     }
   }
-
 	</style>
 </head>
 
 <nav>
   <ul>
-    <li class="special"><a href="responsive.html">SARAH SUKIN</a></li>
+    <li class="special">SARAH SUKIN</li>
     <li><a href="maroon.html">favorite color</a></li>
     <li><a href="#">graphic design</a></li>
     <li><a href="#">marketing</a></li>
     <li><a href="#">contact</a></li>
   </ul>
 </nav>
-<!-- <div>
+<div>
   <p class="im1"></p>
-</div> -->
+</div>
 
 </body>
 </html>

@@ -9,35 +9,56 @@
 
     body {
         margin-left:0px;
-        margin-top:20px;
+        margin-top:60px;
+        float: left;
         position: relative;
-        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("images/camper2.jpg");
     }
 
     h1{
       color:black;
+       font-family: Arial, Helvetica, sans-serif;*/
+      display: inline-block;
+      list-style-type: none;
       margin: 0;
+			font-size: 400%;
+			width: 100px;
+      display:inline;
       position: relative;
       float:left;
-      margin-left:20px;
-      letter-spacing:30px;
-      z-index:40px;
+      margin-top:200px;
     }
 
-    h3{
-      color:black;
-      margin: 0;
-      position: relative;
-      float:left;
-      margin-left:20px;
-      letter-spacing:6px;
-      z-index:40px;
+    .bord{
+      border-style:solid;
+      border-width:10px;
+      border-radius:0px;
+      color:transparent;
+      width:130px;
+      height:160px;
+      margin-left:330px;
+      margin-top:220px;
     }
+
+    .bord:hover{
+      border-style:solid;
+      border-width:10px;
+      border-radius:0px;
+      color:black;
+      width:130px;
+      height:160px;
+      margin-left:330px;
+      margin-top:220px;
+    }
+
+  @media screen and (max-width: 480px) {
+    .bord {
+      color:black;
+    }
+  }
 
     img{
       position:relative;
-      width:410px;
-      height:273px;
     }
 
     a{
@@ -46,143 +67,14 @@
       z-index= 200px;
     }
 
-    .tester{
-      float:right;
-      display: inline-block;
-      margin-top:-20px;
-    }
-
-    figure{
-      width:410px;
-    }
-
-    figure:hover{
-      background-color:black;
-    }
-
-    .hdr{
-      position:fixed;
-    }
-
-    .b{
-      border-style:solid;
-      border-width:10px;
-      border-radius:0px;
-      color:transparent;
-      width:390px;
-      height:273px;
-      position:relative;
-      display: inline-block;
-      float:right;
-      margin-right:40px;
-    }
-    .b:hover{
-      background-color:black;
-    }
-
-
-    @media screen and (max-width: 700px) {
-      h1{
-        margin-left:150px;
-        letter-spacing:10px;
-      }
-      h3{
-        color: transparent;
-      }
-      .tester{
-        margin-left:0px;
-        margin-top:0px;
-      }
-      .hdr{
-        position:relative;
-      }
-      body{
-
-      }
-      /*img{
-        width:298px;
-        height:199px;
-      }
-      figure{
-        width:298px;
-      }*/
-    }
-
-    @media screen and (max-width: 480px) {
-
-      h1{
-        margin-left:150px;
-        letter-spacing:10px;
-      }
-      h3{
-        color: transparent;
-      }
-      .tester{
-        margin-left:0px;
-        margin-top:0px;
-      }
-      .hdr{
-        position:relative;
-      }
-
-    }
     </style>
 </head>
 
 <body>
-
-  <div class="hdr">
-    <h1><a href="index.html">nendo</a></h1><br><br>
-    <h3>product design</h3><br>
-  </div>
-
-  <div class="tester">
-    <a href="memo.html">
-      <figure>
-      <img src="i2/memo block/m4.jpg" alt="memo1">
-      <figcaption>block memo</figcaption>
-      <figcaption style="float:right; display:inline-block; margin-top:-19px;">01.2016</figcaption>
-      </figure>
-    </a>
-    <a href="suitcase.html">
-      <figure>
-      <img src="i2/suitcase/a1.jpg" alt="memo1">
-      <figcaption>proteca 360</figcaption>
-      <figcaption style="float:right; display:inline-block; margin-top:-19px;">11.2015</figcaption>
-      </figure>
-    </a>
-    <a href="shoes.html">
-      <figure>
-      <img src="i2/marker shoes/m1.jpg" alt="memo1">
-      <figcaption>marker-shoes</figcaption>
-      <figcaption style="float:right; display:inline-block; margin-top:-19px;">03.2015</figcaption>
-      </figure>
-    </a>
-    <a href="ct.html">
-      <figure>
-        <img src="i2/chocolate texture/c1.jpg" alt="memo1">
-        <figcaption>chocolatexture</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">01.2015</figcaption>
-      </figure>
-    </a>
-    <a href="heads.html">
-      <figure>
-        <img src="i2/heads or tails/h1.jpg" alt="memo1">
-        <figcaption>heads or tails</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">10.2013</figcaption>
-      </figure>
-    </a>
-    <a href="s.html">
-      <figure>
-        <img src="i2/s/s1.png" alt="memo1">
-        <figcaption>sekki</figcaption>
-        <figcaption style="float:right; display:inline-block; margin-top:-19px;">10.2013</figcaption>
-      </figure>
-    </a>
-    <a href="f4.html">
-      <div class="b"></div>
-    </a>
-  </div>
+  <a href="index2.html">
+    <div class="bord">
+    </div>
+  </a>
 </body>
 
 </html>

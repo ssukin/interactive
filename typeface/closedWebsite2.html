@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Typeface</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/main8.css">
+	<style></style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body style="background-color:black;">
+
+<script>
+$(function() {
+	  var body = $('body');
+	  var backgrounds = ['url(10.png)', 'url(9.png)', 'url(8.png)', 'url(7.png)', 'url(6.png)', 'url(5.png)', 'url(4.png)', 'url(3.png)', 'url(2.png)', 'url(1.png)', 'url(0.png)'];
+	var current = 0;
+
+	function nextBackground() {
+	  body.css(
+	   'background',
+	    backgrounds[current = ++current % backgrounds.length]
+	 );
+
+	 setTimeout(nextBackground, 1000);
+	 }
+	 setTimeout(nextBackground, 1000);
+	   body.css('background', backgrounds[0]);
+});
+
+$(document).ready(function () {
+    window.setTimeout(function () {
+				location.href = "https://ssukin.github.io/interactive/typeface/type5.html";
+    }, 10000);
+});
+
+</script>
+
+</body>
+
+</html>

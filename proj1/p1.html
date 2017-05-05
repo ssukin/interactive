@@ -4,155 +4,149 @@
 <head>
     <title>Visual Translation Archive</title>
     <meta charset="utf-8" />
-    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="stylesheet" href="openface.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <style>
-    body {
-      /*background: #F3D5CE;*/
-      background-image: url("images/day40.png");
-      width:520px;
-      margin-right:auto;
-      margin-left:auto;
-      margin-top:100px;
-    }
 
-    @font-face {
-		    font-family: Berthold;
-		    src: url(Berthold/Berthold.otf);
-		}
+      body {
+        background-image: url("images/day40.png");
+        width:520px;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:100px;
+      }
 
-		div {
-		    font-family: Berthold;
-				font-size: 20px;
+      @font-face {
+  		    font-family: Berthold;
+  		    src: url(Berthold/Berthold.otf);
+  		}
+
+  		div {
+  		    font-family: Berthold;
+  				font-size: 20px;
+          color:white;
+  		}
+
+      a{
         color:white;
-		}
+        text-decoration:none;
+      }
 
-    a{
-      color:white;
-      text-decoration:none;
-    }
-
-    a:hover {
-      color:black;
-      text-decoration:none;
-    }
+      a:hover {
+        color:black;
+        text-decoration:none;
+      }
 
 
-    ol{
-      color:white;
-      margin-left:-150px;
-      margin-top:0px;
-      float:left;
-      position:relative;
-      font-family: Berthold;
-      font-size: 20px;
-    }
+      ol{
+        color:white;
+        margin-left:-150px;
+        margin-top:0px;
+        float:left;
+        position:relative;
+        font-family: Berthold;
+        font-size: 20px;
+      }
 
-    ol:hover {
-      color:black;
-    }
+      ol:hover {
+        color:black;
+      }
 
-    h1, h2, h3 {
-      color:white;
-      font-family: Berthold;
-      src: url(Berthold/Berthold.otf);
-    }
-    .tester{
-      text-decoration: none;
-      font-size:80px;
-      color:black;
-      position:absolute;
-      z-index:-100;
-    }
-    .org {
-      float: left;
-      padding-left:20px;
-    }
-    .bord{
-      border-style:solid;
-      border-width:10px;
-      border-radius:0px;
-      boder-color:white;
-      width:500px;
-      height:500px;
-    }
+      h1, h2, h3 {
+        color:white;
+        font-family: Berthold;
+        src: url(Berthold/Berthold.otf);
+      }
+      .tester{
+        text-decoration: none;
+        font-size:80px;
+        color:black;
+        position:absolute;
+        z-index:-100;
+      }
+      .org {
+        float: left;
+        padding-left:20px;
+      }
+      .bord{
+        border-style:solid;
+        border-width:10px;
+        border-radius:0px;
+        boder-color:white;
+        width:500px;
+        height:500px;
+      }
 
-    .bord:hover{
-      color:white;
-    }
+      .bord:hover{
+        color:white;
+      }
 
-    img{
-      position:relative;
-    }
+      img{
+        position:relative;
+      }
 
-    .sideNavLeft{
-      float:left;
-      margin-top:220px;
-      margin-left:-125px;
-      position:relative;
-      font-size:100px;
-      text-decoration: none;
-      display:inline;
-    }
+      .sideNavLeft{
+        float:left;
+        margin-top:220px;
+        margin-left:-125px;
+        position:relative;
+        font-size:100px;
+        text-decoration: none;
+        display:inline;
+      }
 
-    .sideNavRight{
-      float:right;
-      margin-top:220px;
-      margin-right:-125px;
-      position:relative;
-      font-size:100px;
-      text-decoration: none;
-      display:inline;
-    }
-    .directory{
-      border-color:white;
-      border-style:solid;
-      border-width:10px;
-      background-color: #F3D5CE;
-      float:left;
-      margin-top:0px;
-      margin-left:-180px;
-      position:relative;
-      font-size:20px;
-      text-decoration: none;
-      display:inline;
-      padding:2px 10px 2px 10px;
-      line-height:0px;
-    }
+      .sideNavRight{
+        float:right;
+        margin-top:220px;
+        margin-right:-125px;
+        position:relative;
+        font-size:100px;
+        text-decoration: none;
+        display:inline;
+      }
 
-    .directory:hover{
-      background-color:transparent;
-    }
+      .directory{
+        border-color:white;
+        border-style:solid;
+        border-width:10px;
+        background-color: #F3D5CE;
+        float:left;
+        margin-top:0px;
+        margin-left:-180px;
+        position:relative;
+        font-size:20px;
+        text-decoration: none;
+        display:inline;
+        padding:2px 10px 2px 10px;
+        line-height:0px;
+      }
 
-    h1:hover, h2:hover, h3:hover {
-      color:black;
-    }
+      .directory:hover{
+        background-color:transparent;
+      }
+
+      h1:hover, h2:hover, h3:hover {
+        color:black;
+      }
 
     </style>
 
     <body>
-    <a href="directory.html">
-      <div class="directory">
-      <p>directory</p>
-    </div>
-    </a>
-    <div class="sideNavLeft">
-      <a style="color:white" href="index.html">&lt;</a>
-    </div>
-    <div class="sideNavRight">
-      <a style="color:white" href="p2.html">&gt;</a>
-    </div>
-    <div class="bord">
-      <!-- <a href="p2.html"> -->
-          <img id="image0" src="images/day62 copy.png" width="500" height="500" />
-      <!-- </a> -->
-    </div>
-    <h3>Visual Translation Archive by Sarah Sukin</h3>
-    <h3 style="float:right; display:inline-block; margin-top:-41px;">1/60</h3>
-
-
-</body>
-
+      <a href="directory.html">
+        <div class="directory">
+        <p>directory</p>
+      </div>
+      </a>
+      <div class="sideNavLeft">
+        <a style="color:white" href="index.html">&lt;</a>
+      </div>
+      <div class="sideNavRight">
+        <a style="color:white" href="p2.html">&gt;</a>
+      </div>
+      <div class="bord">
+        <img id="image0" src="images/day62 copy.png" width="500" height="500" />
+      </div>
+      <h3>Visual Translation Archive by Sarah Sukin</h3>
+      <h3 style="float:right; display:inline-block; margin-top:-41px;">1/60</h3>
+    </body>
 </html>
